@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+
+</head>
+<body onload="lastLetter(), getLetterWin()" onkeydown="checked('', true, event)">
+    
+    <nav>
+        <ul>
+            <li>A</li>
+            <li>B</li>
+            <li>C</li>
+            <li>D</li>
+            <li>E</li>
+            <li>F</li>
+            <li>G</li>
+            <li>H</li>
+            <li>I</li>
+            <li>J</li>
+            <li>K</li>
+        </ul>
+    </nav>
+
+    <div id="box">
+        
+        <div id="question">
+            <div id="count">SEQUENCE: <span id="count-question">1</span></div>
+            Qual a Tradução de: "<span id="text">...</span>"
+        </div>
+        <div id="check"></div>
+
+    </div>
+
+    <div id="alternatives">
+        <div class="alt">
+            <div class="alt-letter red">A</div>
+            <div class="alt-text">...</div>
+        </div>
+        <div class="alt">
+            <div class="alt-letter blue">B</div>
+            <div class="alt-text">...</div>
+        </div>
+        <div class="alt">
+            <div class="alt-letter green">C</div>
+            <div class="alt-text">...</div>
+        </div>
+        <div class="alt">
+            <div class="alt-letter orange">D</div>
+            <div class="alt-text">...</div>
+        </div>
+    </div>
+
+    <div id="words-phase">FALTANDO: <span id="words"></span></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

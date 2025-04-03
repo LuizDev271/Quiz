@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+    padding: 0; margin: 0;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+body, html{
+    background-color: #1E0359;
+    background: url(Fundo.png) fixed no-repeat center;
+    background-size: cover;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Nav */
+
+nav{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+ul{ 
+    display: flex;
+    flex-direction: row;
+
+    list-style: none;
+}
+
+li{
+    transition: all 0.3s;
+    margin: 10px 20px -20px 20px;
+}
+
+li:hover{
+    transition: all 0.3s;
+    color: yellow;
+    transform: scale(1.5);
+    cursor: pointer;
+    -webkit-text-stroke: 2px transparent;
+}
+
+li:active{
+    transition: all 0.2s;
+    transform: scale(1.2);
+}
+
+/* Count */
+
+#count{
+    width: 430px;
+    font-size: 50px;
+    margin-bottom: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid white;
+}
+
+/* Box Questions */
+
+#box{
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    width: 700px; height: 500px; margin: 40px;
+    background-image: url(Border.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#question{
+    width: 560px; padding-right: 30px;
+    text-align: center;
+
+    color: white;
+    font-size: 54px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+    margin-bottom: 75px;
+    cursor: default;
+}
+
+/*Alternatives*/
+
+#alternatives{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 1080px;
+}
+
+.alt{
+    transition: all 0.3s;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+    width: 430px; height: 80px; margin: 25px 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.547);
+    transform: skew(-30deg);
+
+    cursor: pointer;
+
+    overflow: hidden;
+}
+
+.alt-letter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 25%;
+    box-shadow: 0px 7px 7px black;
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.alt-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 75%;
+
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.alt-text::selection{
+    color: black;
+    background-color: white;
+}
+
+.alt:hover{
+    transition: all 0.3s;
+    transform: skew(-30deg) scale(1.15);
+}
+
+.red{
+    background-color: Red;
+}
+
+.blue{
+    background-color: #6262d8;
+}
+
+.green{
+    background-color: #20bc20;
+}
+
+.orange{
+    background-color: orange;
+}
+
+/* Words */
+
+#words-phase{
+    position: absolute;
+    top: 100px;
+    right: 460px;
+
+    color: white;
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-weight: bold;
+}
+
+/* Check */
+
+#check{
+    position: absolute;
+    bottom: 0; left: calc(50% - 50px);
+
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100px;height: 100px;border-radius: 50px;
+    box-shadow: 0px 0 7px black;
+
+    color: white;
+    font-size: 64px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.correct{
+    background-color: #23ac23;
+}
+
+.wrong{
+    background-color: red;
+}
+
+/* Active - Win Class */
+
+.active{
+    transform: scale(1.25);
+    color: #6262d8;
+    -webkit-text-stroke: 2px black;
+}
+
+.win{
+    color: #20bc20;
+    transform: scale(1.4);
+    -webkit-text-stroke: 2px black;
+}
