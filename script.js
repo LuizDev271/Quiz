@@ -21,7 +21,7 @@ let wordsAskA = ['a', 'accumulated', 'actor', 'adreess',
     'am', 'and', 'angles', 'annoy', 'apartment',
     'apps', 'are', 'argue', 'arrest',
     'arrive', 'artist', 'asleep', 'at',
-    'attempts', 'awful', ""]
+    'attempts', 'awful']
 let wordsAskB = ['bad', 'badge', 'bag', 'bank',
     'bat', 'be', 'beach', 'beard',
     'beautiful', 'bed', 'been', 'beer',
@@ -33,7 +33,7 @@ let wordsAskB = ['bad', 'badge', 'bag', 'bank',
     'brain', 'break', 'breakfast', 'bring',
     'bringing', 'brings', 'bummer', 'bump',
     'bus', 'business', 'busy', 'but',
-    'buy', 'box', ""]
+    'buy', 'box']
 let wordsAskC = ['cabin', 'came', 'camera', 'can',
     'candy', 'cannot', 'careful', 'careless',
     'caring', 'carry', 'catch', 'cents',
@@ -44,7 +44,7 @@ let wordsAskC = ['cabin', 'came', 'camera', 'can',
     'coming', 'complain', 'comply', 'concerned',
     'cook', 'cool', 'cost', 'could',
     'crawl', 'crouch', 'crowds', 'cup',
-    'cute', ""]
+    'cute']
 let wordsAskD = ['dance', 'dangerous', 'dark', 'darting',
     'date', 'daughter', 'day', 'dealt',
     'deed', 'delicious', 'dentist', 'depleting',
@@ -52,12 +52,12 @@ let wordsAskD = ['dance', 'dangerous', 'dark', 'darting',
     'different', 'dinner', 'dirty', 'dish',
     'dishes', 'do', 'dogs', 'dool',
     'downstairs', 'dress', 'drink', 'drinks',
-    'drive', 'drums', 'dunno', ""]
+    'drive', 'drums', 'dunno']
 let wordsAskE = ['each', 'early', 'earthlings', 'elegant',
     'else', 'enjoy', 'enough', 'even',
     'evening', 'ever', 'every', 'exam',
     'exchange', 'excuse', 'exercise', 'exhale',
-    'expensive', ""]
+    'expensive']
 let wordsAskF = ['factory', 'fair', 'fall', 'family',
     'famous', 'farm', 'fast', 'fat',
     'father', 'fatter', 'favorite', 'feels',
@@ -69,14 +69,14 @@ let wordsAskF = ['factory', 'fair', 'fall', 'family',
     'forget', 'forhead', 'fouth', 'free',
     'fresh', 'fridge', 'friend', 'froom',
     'fruit', 'fry', 'fulfill', 'funny',
-    'furtner', ""]
+    'furtner']
 let wordsAskG = ['game', 'garden', 'gates', 'gateway',
     'genius', 'get', 'getting', 'girlfriend',
     'give', 'glad', 'glasses', 'glew',
     'go', 'going', 'gonna', 'good',
     'goodbye', 'gotta', 'gotten', 'grandparents',
     'grass', 'great', 'grind', 'grown',
-    'grows', 'guess', 'guest', ""]
+    'grows', 'guess', 'guest']
 let wordsAskH = ['half', 'halt', 'hand', 'handwriting',
     'happy', 'hard', 'harsh', 'has',
     'hat', 'have', 'hear', 'heaven',
@@ -85,13 +85,13 @@ let wordsAskH = ['half', 'halt', 'hand', 'handwriting',
     'hired', 'his', 'holds', 'holiday',
     'home', 'homework', 'honey', 'hop',
     'house', 'how', 'however', 'hungry',
-    'hurry', 'husband', ""]
+    'hurry', 'husband']
 let wordsAskI = ['i', 'impact', 'improved', 'in',
     'increase', 'indeed', 'inhale', 'interesting',
-    'into', 'invitation', 'invite', 'is', ""]
-let wordsAskJ = ['jacket', 'janitor', 'job', ""]
+    'into', 'invitation', 'invite', 'is']
+let wordsAskJ = ['jacket', 'janitor', 'job']
 let wordsAskK = ['keep', 'keys', 'kitchen', 'knew',
-    'knife', 'know', ""]
+    'knife', 'know']
 
 let wordsTradA = ['um', 'acumulado', 'ator', 'endereço',
     'tarde', 'atrás', 'concordar', 'acordo',
@@ -100,7 +100,7 @@ let wordsTradA = ['um', 'acumulado', 'ator', 'endereço',
     'sou', 'e', 'ângulos', 'irritar',
     'apartamento', 'aplicativos', 'são', 'discutir',
     'prender', 'chegar', 'artista', 'dormindo', 'no',
-    'tentativas', 'horrível', ""]
+    'tentativas', 'horrível']
 let wordsTradB = ['ruim', 'distintivo', 'bolsa', 'banco',
     'bastão', 'ser', 'praia', 'barba',
     'lindo', 'cama', 'estive', 'cerveja',
@@ -112,7 +112,7 @@ let wordsTradB = ['ruim', 'distintivo', 'bolsa', 'banco',
     'cérebro', 'quebrar', 'café da manhã', 'trazer',
     'trazendo', 'traz', 'desapontamento', 'ressalto',
     'ônibus', 'negócios', 'ocupado', 'mas',
-    'comprar', 'caixa', ""]
+    'comprar', 'caixa']
 let wordsTradC = ['cabine', 'veio', 'câmera', 'pode',
     'doce', 'não pode', 'cuidadoso', 'descuidado',
     'cuidadoso', 'carregar', 'pegar', 'centavos',
@@ -123,7 +123,7 @@ let wordsTradC = ['cabine', 'veio', 'câmera', 'pode',
     'chegando', 'reclamar', 'cumprir', 'preocupado',
     'cozinhar', 'legal', 'custo', 'poderia',
     'arrastar', 'agachar', 'multidões', 'xícara',
-    'bonitinho', ""]
+    'bonitinho']
 let wordsTradD = ['dança', 'perigoso', 'escuro', 'arremessando',
     'data', 'filha', 'dia', 'tratado',
     'obra', 'delicioso', 'dentista', 'esgotando',
@@ -131,12 +131,12 @@ let wordsTradD = ['dança', 'perigoso', 'escuro', 'arremessando',
     'diferente', 'jantar', 'sujo', 'prato',
     'pratos', 'fazer', 'cães', 'boneca',
     'lá embaixo', 'vestir', 'bebida', 'bebidas',
-    'dirigir', 'bateria', 'não sei', ""]
+    'dirigir', 'bateria', 'não sei']
 let wordsTradE = ['cada', 'cedo', 'terráqueos', 'elegante',
     'outro', 'aproveitar', 'suficiente', 'até',
     'noite', 'sempre', 'todo', 'exame',
     'intercâmbio', 'desculpa', 'exercício', 'expirar',
-    'caro', ""]
+    'caro']
 let wordsTradF = ['fábrica', 'justo', 'cair', 'família',
     'famoso', 'fazenda', 'rápido', 'gordo',
     'pai', 'mais gordo', 'favorito', 'sentimentos',
@@ -148,14 +148,14 @@ let wordsTradF = ['fábrica', 'justo', 'cair', 'família',
     'esquecer', 'testa', 'quarto', 'livre',
     'fresco', 'geladeira', 'amigo', 'da sala',
     'fruta', 'fritar', 'completar', 'engraçado',
-    'mais adiante', ""]
+    'mais adiante']
 let wordsTradG = ['jogo', 'jardim', 'portões', 'porta de entrada',
     'gênio', 'pegar', 'recebendo', 'namorada',
     'dar', 'alegre', 'copos', 'brilhou',
     'ir', 'indo', 'vai', 'bom',
     'adeus', 'preciso', 'pego', 'avós',
     'grama', 'ótimo', 'moer', 'crescido',
-    'cresce', 'adivinhar', 'convidado', ""]
+    'cresce', 'adivinhar', 'convidado']
 let wordsTradH = ['metade', 'parar', 'mão', 'caligrafia',
     'feliz', 'duro', 'severo', 'tem',
     'chapéu', 'ter', 'ouvir', 'paraíso',
@@ -164,16 +164,16 @@ let wordsTradH = ['metade', 'parar', 'mão', 'caligrafia',
     'contratado', 'dele', 'detém', 'feriado',
     'lar', 'trabalho de casa', 'mel', 'saltar',
     'casa', 'como', 'no entanto', 'com fome',
-    'pressa', 'marido', ""]
+    'pressa', 'marido']
 let wordsTradI = ['eu', 'impacto', 'melhorou', 'em',
     'aumentar', 'de fato', 'inalar', 'interessante',
-    'dentro', 'convite', 'convidar', 'é', ""]
-let wordsTradJ = ['jaqueta', 'zelador', 'trabalho', ""]
+    'dentro', 'convite', 'convidar', 'é']
+let wordsTradJ = ['jaqueta', 'zelador', 'trabalho']
 let wordsTradK = ['manter', 'chaves', 'cozinha', 'sabia',
-    'faca', 'saber', ""]
+    'faca', 'saber']
 
 let used = []
-let correct = ['']
+let correct = []
 
 //=======================
 // Local Storage Word Continuity
@@ -1188,7 +1188,7 @@ letters.forEach(tag => {
 
             getWordA()
             used = []
-            correct = ['']
+            correct = []
         } else if (tag.innerHTML == 'B') {
             let obj = {
                 A: false,
@@ -1208,7 +1208,7 @@ letters.forEach(tag => {
 
             getWordB()
             used = []
-            correct = ['']
+            correct = []
         } else if (tag.innerHTML == 'C') {
             let obj = {
                 A: false,
@@ -1228,7 +1228,7 @@ letters.forEach(tag => {
 
             getWordC()
             used = []
-            correct = ['']
+            correct = []
         } else if (tag.innerHTML == 'D') {
             let obj = {
                 A: false,
@@ -1247,7 +1247,7 @@ letters.forEach(tag => {
             localStorage.setItem("letters", JSON.stringify(obj))
             getWordD()
             used = []
-            correct = ['']
+            correct = []
         } else if (tag.innerHTML == 'E') {
             let obj = {
                 A: false,
@@ -1267,7 +1267,7 @@ letters.forEach(tag => {
 
             getWordE()
             used = []
-            correct = ['']
+            correct = []
         } else if (tag.innerHTML == 'F') {
             let obj = {
                 A: false,
@@ -1287,7 +1287,7 @@ letters.forEach(tag => {
 
             getWordF()
             used = []
-            correct = ['']
+            correct = []
         } else if (tag.innerHTML == 'G') {
             let obj = {
                 A: false,
@@ -1307,7 +1307,7 @@ letters.forEach(tag => {
 
             getWordG()
             used = []
-            correct = ['']
+            correct = []
         } else if (tag.innerHTML == 'H') {
             let obj = {
                 A: false,
@@ -1327,7 +1327,7 @@ letters.forEach(tag => {
 
             getWordH()
             used = []
-            correct = ['']
+            correct = []
         } else if (tag.innerHTML == 'I') {
             let obj = {
                 A: false,
@@ -1347,7 +1347,7 @@ letters.forEach(tag => {
 
             getWordI()
             used = []
-            correct = ['']
+            correct = []
         } else if (tag.innerHTML == 'J') {
             let obj = {
                 A: false,
@@ -1367,7 +1367,7 @@ letters.forEach(tag => {
 
             getWordJ()
             used = []
-            correct = ['']
+            correct = []
         } else if (tag.innerHTML == 'K') {
             let obj = {
                 A: false,
@@ -1387,7 +1387,7 @@ letters.forEach(tag => {
 
             getWordK()
             used = []
-            correct = ['']
+            correct = []
         }
     })
 })
