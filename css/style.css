@@ -9,7 +9,7 @@
 
 body, html{
     background-color: #1E0359;
-    background: url(Fundo.png) fixed no-repeat center;
+    background: url(../imgs/Fundo.png) fixed no-repeat center;
     background-size: cover;
 }
 
@@ -76,7 +76,7 @@ li:active{
     align-items: center;
 
     width: 700px; height: 500px; margin: 40px;
-    background-image: url(Border.png);
+    background-image: url(../imgs/Border.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -163,22 +163,6 @@ li:active{
     transform: skew(-30deg) scale(1.15);
 }
 
-.red{
-    background-color: Red;
-}
-
-.blue{
-    background-color: #6262d8;
-}
-
-.green{
-    background-color: #20bc20;
-}
-
-.orange{
-    background-color: orange;
-}
-
 /* Words */
 
 #words-phase{
@@ -212,24 +196,3 @@ li:active{
     font-weight: bold;
 }
 
-.correct{
-    background-color: #23ac23;
-}
-
-.wrong{
-    background-color: red;
-}
-
-/* Active - Win Class */
-
-.active{
-    transform: scale(1.25);
-    color: #6262d8;
-    -webkit-text-stroke: 2px black;
-}
-
-.win{
-    color: #20bc20;
-    transform: scale(1.4);
-    -webkit-text-stroke: 2px black;
-}
