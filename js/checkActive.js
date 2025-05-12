@@ -182,6 +182,7 @@ letters.forEach(tag => {
             getWordA()
             used = []
             correct = []
+            missing.innerHTML = ''
         } else if (tag.innerHTML == 'B') {
             let obj = {
                 A: false,
@@ -202,6 +203,7 @@ letters.forEach(tag => {
             getWordB()
             used = []
             correct = []
+            missing.innerHTML = ''
         } else if (tag.innerHTML == 'C') {
             let obj = {
                 A: false,
@@ -222,6 +224,7 @@ letters.forEach(tag => {
             getWordC()
             used = []
             correct = []
+            missing.innerHTML = ''
         } else if (tag.innerHTML == 'D') {
             let obj = {
                 A: false,
@@ -241,6 +244,7 @@ letters.forEach(tag => {
             getWordD()
             used = []
             correct = []
+            missing.innerHTML = ''
         } else if (tag.innerHTML == 'E') {
             let obj = {
                 A: false,
@@ -261,6 +265,7 @@ letters.forEach(tag => {
             getWordE()
             used = []
             correct = []
+            missing.innerHTML = ''
         } else if (tag.innerHTML == 'F') {
             let obj = {
                 A: false,
@@ -281,6 +286,7 @@ letters.forEach(tag => {
             getWordF()
             used = []
             correct = []
+            missing.innerHTML = ''
         } else if (tag.innerHTML == 'G') {
             let obj = {
                 A: false,
@@ -301,6 +307,7 @@ letters.forEach(tag => {
             getWordG()
             used = []
             correct = []
+            missing.innerHTML = ''
         } else if (tag.innerHTML == 'H') {
             let obj = {
                 A: false,
@@ -321,6 +328,7 @@ letters.forEach(tag => {
             getWordH()
             used = []
             correct = []
+            missing.innerHTML = ''
         } else if (tag.innerHTML == 'I') {
             let obj = {
                 A: false,
@@ -341,6 +349,7 @@ letters.forEach(tag => {
             getWordI()
             used = []
             correct = []
+            missing.innerHTML = ''
         } else if (tag.innerHTML == 'J') {
             let obj = {
                 A: false,
@@ -361,6 +370,7 @@ letters.forEach(tag => {
             getWordJ()
             used = []
             correct = []
+            missing.innerHTML = ''
         } else if (tag.innerHTML == 'K') {
             let obj = {
                 A: false,
@@ -381,6 +391,7 @@ letters.forEach(tag => {
             getWordK()
             used = []
             correct = []
+            missing.innerHTML = ''
         }
     })
 })
