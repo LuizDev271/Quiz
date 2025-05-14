@@ -18,7 +18,12 @@ function checked(tag, param = false, event) {
                 })
 
                 if (letters.A) {
-                    getWordA()
+                    if(attempt >= 150 && (wordsTradA.length - correct.length) == 1){
+                        getWordA(true)
+                    } else {
+                        getWordA(false)
+                    }
+
                     words.innerHTML = `${wordsAskA.length - correct.length}`
                     
                     if (correct.length == wordsTradA.length) {
@@ -26,7 +31,12 @@ function checked(tag, param = false, event) {
                         letterWin("A")
                     }
                 } else if (letters.B) {
-                    getWordB()
+                    if(attempt >= 150 && (wordsTradB.length - correct.length) == 1){
+                        getWordB(true)
+                    } else {
+                        getWordB(false)
+                    }
+
                     words.innerHTML = `${wordsAskB.length - correct.length}`
 
                     if (correct.length == wordsTradB.length) {
@@ -34,7 +44,12 @@ function checked(tag, param = false, event) {
                         letterWin("B")
                     }
                 } else if (letters.C) {
-                    getWordC()
+                    if(attempt >= 150 && (wordsTradC.length - correct.length) == 1){
+                        getWordC(true)
+                    } else {
+                        getWordC(false)
+                    }
+
                     words.innerHTML = `${wordsAskC.length - correct.length}`
 
                     if (correct.length == wordsTradC.length) {
@@ -42,7 +57,12 @@ function checked(tag, param = false, event) {
                         letterWin("C")
                     }
                 } else if (letters.D) {
-                    getWordD()
+                    if(attempt >= 150 && (wordsTradD.length - correct.length) == 1){
+                        getWordD(true)
+                    } else {
+                        getWordD(false)
+                    }
+
                     words.innerHTML = `${wordsAskD.length - correct.length}`
 
                     if (correct.length == wordsTradD.length) {
@@ -50,7 +70,12 @@ function checked(tag, param = false, event) {
                         letterWin("D")
                     }
                 } else if (letters.E) {
-                    getWordE()
+                    if(attempt >= 150 && (wordsTradE.length - correct.length) == 1){
+                        getWordE(true)
+                    } else {
+                        getWordE(false)
+                    }
+
                     words.innerHTML = `${wordsAskE.length - correct.length}`
 
                     if (correct.length == wordsTradE.length) {
@@ -58,7 +83,11 @@ function checked(tag, param = false, event) {
                         letterWin("E")
                     }
                 } else if (letters.F) {
-                    getWordF()
+                    if(attempt >= 150 && (wordsTradF.length - correct.length) == 1){
+                        getWordF(true)
+                    } else {
+                        getWordF(false)
+                    }
                     words.innerHTML = `${wordsAskF.length - correct.length}`
 
                     if (correct.length == wordsTradF.length) {
@@ -66,7 +95,12 @@ function checked(tag, param = false, event) {
                         letterWin("F")
                     }
                 } else if (letters.G) {
-                    getWordG()
+                    if(attempt >= 150 && (wordsTradG.length - correct.length) == 1){
+                        getWordG(true)
+                    } else {
+                        getWordG(false)
+                    }
+
                     words.innerHTML = `${wordsAskG.length - correct.length}`
 
                     if (correct.length == wordsTradG.length) {
@@ -74,7 +108,12 @@ function checked(tag, param = false, event) {
                         letterWin("G")
                     }
                 } else if (letters.H) {
-                    getWordH()
+                    if(attempt >= 150 && (wordsTradH.length - correct.length) == 1){
+                        getWordH(true)
+                    } else {
+                        getWordH(false)
+                    }
+
                     words.innerHTML = `${wordsAskH.length - correct.length}`
 
                     if (correct.length == wordsTradH.length) {
@@ -82,7 +121,12 @@ function checked(tag, param = false, event) {
                         letterWin("H")
                     }
                 } else if (letters.I) {
-                    getWordI()
+                    if(attempt >= 150 && (wordsTradI.length - correct.length) == 1){
+                        getWordI(true)
+                    } else {
+                        getWordI(false)
+                    }
+
                     words.innerHTML = `${wordsAskI.length - correct.length}`
 
                     if (correct.length == wordsTradI.length) {
@@ -90,7 +134,12 @@ function checked(tag, param = false, event) {
                         letterWin("I")
                     }
                 } else if (letters.J) {
-                    getWordJ()
+                    if(attempt >= 150 && (wordsTradJ.length - correct.length) == 1){
+                        getWordJ(true)
+                    } else {
+                        getWordJ(false)
+                    }
+                    
                     words.innerHTML = `${wordsAskJ.length - correct.length}`
 
                     if (correct.length == wordsTradJ.length) {
@@ -98,7 +147,12 @@ function checked(tag, param = false, event) {
                         letterWin("J")
                     }
                 } else if (letters.K) {
-                    getWordK()
+                    if(attempt >= 150 && (wordsTradK.length - correct.length) == 1){
+                        getWordK(true)
+                    } else {
+                        getWordK(false)
+                    }
+
                     words.innerHTML = `${wordsAskK.length - correct.length}`
 
                     if (correct.length == wordsTradK.length) {

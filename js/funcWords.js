@@ -1,6 +1,7 @@
-function getWordA() {
+function getWordA(lastAlt = false) {
     alts.forEach(tag => {
         tag.removeAttribute('correct')
+        tag.innerHTML = '...'
     })
 
     let x = Math.floor(Math.random().toFixed(2) * (wordsAskA.length - 1))
@@ -9,13 +10,23 @@ function getWordA() {
     }
     let z = Math.floor(Math.random() * alts.length)
 
-    alts[z].innerHTML = wordsTradA[x]
-    alts[z].setAttribute("Correct", true)
+    if(lastAlt){
+        alts[z].innerHTML = wordsTradA[lastWord('A')]
+        alts[z].setAttribute("Correct", true)
 
-    word.style.color = 'yellow'
-    word.innerHTML = wordsAskA[x]
+        word.style.color = 'yellow'
+        word.innerHTML = wordsAskA[lastWord('A')]
 
-    used.push(wordsTradA[x])
+        used.push(wordsTradA[lastWord('A')])
+    } else if(!lastAlt){
+        alts[z].innerHTML = wordsTradA[x]
+        alts[z].setAttribute("Correct", true)
+
+        word.style.color = 'yellow'
+        word.innerHTML = wordsAskA[x]
+
+        used.push(wordsTradA[x])
+    }
 
     for (let x = 0; x <= 5; x++) {
         alts.forEach(tag => {
@@ -38,9 +49,10 @@ function getWordA() {
         })
     }
 }
-function getWordB() {
+function getWordB(lastAlt = false) {
     alts.forEach(tag => {
         tag.removeAttribute('correct')
+        tag.innerHTML = '...'
     })
 
     let x = Math.floor(Math.random().toFixed(2) * (wordsAskB.length - 1))
@@ -49,13 +61,23 @@ function getWordB() {
     }
     let z = Math.floor(Math.random() * alts.length)
 
-    alts[z].innerHTML = wordsTradB[x]
-    alts[z].setAttribute("Correct", true)
+    if(lastAlt){
+        alts[z].innerHTML = wordsTradB[lastWord('B')]
+        alts[z].setAttribute("Correct", true)
 
-    word.style.color = 'yellow'
-    word.innerHTML = wordsAskB[x]
+        word.style.color = 'yellow'
+        word.innerHTML = wordsAskB[lastWord('B')]
 
-    used.push(wordsTradB[x])
+        used.push(wordsTradB[lastWord('B')])
+    } else if(!lastAlt){
+        alts[z].innerHTML = wordsTradB[x]
+        alts[z].setAttribute("Correct", true)
+
+        word.style.color = 'yellow'
+        word.innerHTML = wordsAskB[x]
+
+        used.push(wordsTradB[x])
+    }
 
     for (let x = 0; x <= 5; x++) {
         alts.forEach(tag => {
@@ -78,9 +100,10 @@ function getWordB() {
         })
     }
 }
-function getWordC() {
+function getWordC(lastAlt = false) {
     alts.forEach(tag => {
         tag.removeAttribute('correct')
+        tag.innerHTML = '...'
     })
 
     let x = Math.floor(Math.random().toFixed(2) * (wordsAskC.length - 1))
@@ -89,13 +112,23 @@ function getWordC() {
     }
     let z = Math.floor(Math.random() * alts.length)
 
-    alts[z].innerHTML = wordsTradC[x]
-    alts[z].setAttribute("Correct", true)
+    if(lastAlt){
+        alts[z].innerHTML = wordsTradC[lastWord('C')]
+        alts[z].setAttribute("Correct", true)
 
-    word.style.color = 'yellow'
-    word.innerHTML = wordsAskC[x]
+        word.style.color = 'yellow'
+        word.innerHTML = wordsAskC[lastWord('C')]
 
-    used.push(wordsTradC[x])
+        used.push(wordsTradC[lastWord('C')])
+    } else if(!lastAlt){
+        alts[z].innerHTML = wordsTradC[x]
+        alts[z].setAttribute("Correct", true)
+
+        word.style.color = 'yellow'
+        word.innerHTML = wordsAskC[x]
+
+        used.push(wordsTradC[x])
+    }
 
     for (let x = 0; x <= 5; x++) {
         alts.forEach(tag => {
@@ -118,9 +151,10 @@ function getWordC() {
         })
     }
 }
-function getWordD() {
+function getWordD(lastAlt = false) {
     alts.forEach(tag => {
         tag.removeAttribute('correct')
+        tag.innerHTML = '...'
     })
 
     let x = Math.floor(Math.random().toFixed(2) * (wordsAskD.length - 1))
@@ -129,13 +163,23 @@ function getWordD() {
     }
     let z = Math.floor(Math.random() * alts.length)
 
-    alts[z].innerHTML = wordsTradD[x]
-    alts[z].setAttribute("Correct", true)
+    if(lastAlt){
+        alts[z].innerHTML = wordsTradD[lastWord('D')]
+        alts[z].setAttribute("Correct", true)
 
-    word.style.color = 'yellow'
-    word.innerHTML = wordsAskD[x]
+        word.style.color = 'yellow'
+        word.innerHTML = wordsAskD[lastWord('D')]
 
-    used.push(wordsTradD[x])
+        used.push(wordsTradD[lastWord('D')])
+    } else if(!lastAlt){
+        alts[z].innerHTML = wordsTradD[x]
+        alts[z].setAttribute("Correct", true)
+
+        word.style.color = 'yellow'
+        word.innerHTML = wordsAskD[x]
+
+        used.push(wordsTradD[x])
+    }
 
     for (let x = 0; x <= 10; x++) {
         alts.forEach(tag => {
@@ -158,9 +202,10 @@ function getWordD() {
         })
     }
 }
-function getWordE() {
+function getWordE(lastAlt = false) {
     alts.forEach(tag => {
         tag.removeAttribute('correct')
+        tag.innerHTML = '...'
     })
 
     let x = Math.floor(Math.random().toFixed(2) * (wordsAskE.length - 1))
@@ -169,13 +214,23 @@ function getWordE() {
     }
     let z = Math.floor(Math.random() * alts.length)
 
-    alts[z].innerHTML = wordsTradE[x]
-    alts[z].setAttribute("Correct", true)
+    if(lastAlt){
+        alts[z].innerHTML = wordsTradE[lastWord('E')]
+        alts[z].setAttribute("Correct", true)
 
-    word.style.color = 'yellow'
-    word.innerHTML = wordsAskE[x]
+        word.style.color = 'yellow'
+        word.innerHTML = wordsAskE[lastWord('E')]
 
-    used.push(wordsTradE[x])
+        used.push(wordsTradE[lastWord('E')])
+    } else if(!lastAlt){
+        alts[z].innerHTML = wordsTradE[x]
+        alts[z].setAttribute("Correct", true)
+
+        word.style.color = 'yellow'
+        word.innerHTML = wordsAskE[x]
+
+        used.push(wordsTradE[x])
+    }
 
     for (let x = 0; x <= 10; x++) {
         alts.forEach(tag => {
@@ -198,9 +253,10 @@ function getWordE() {
         })
     }
 }
-function getWordF() {
+function getWordF(lastAlt = false) {
     alts.forEach(tag => {
         tag.removeAttribute('correct')
+        tag.innerHTML = '...'
     })
 
     let x = Math.floor(Math.random().toFixed(2) * (wordsAskF.length - 1))
@@ -209,13 +265,23 @@ function getWordF() {
     }
     let z = Math.floor(Math.random() * alts.length)
 
-    alts[z].innerHTML = wordsTradF[x]
-    alts[z].setAttribute("Correct", true)
+    if(lastAlt){
+        alts[z].innerHTML = wordsTradF[lastWord('F')]
+        alts[z].setAttribute("Correct", true)
 
-    word.style.color = 'yellow'
-    word.innerHTML = wordsAskF[x]
+        word.style.color = 'yellow'
+        word.innerHTML = wordsAskF[lastWord('F')]
 
-    used.push(wordsTradF[x])
+        used.push(wordsTradF[lastWord('F')])
+    } else if(!lastAlt){
+        alts[z].innerHTML = wordsTradF[x]
+        alts[z].setAttribute("Correct", true)
+
+        word.style.color = 'yellow'
+        word.innerHTML = wordsAskF[x]
+
+        used.push(wordsTradF[x])
+    }
 
     for (let x = 0; x <= 10; x++) {
         alts.forEach(tag => {
@@ -238,9 +304,10 @@ function getWordF() {
         })
     }
 }
-function getWordG() {
+function getWordG(lastAlt = false) {
     alts.forEach(tag => {
         tag.removeAttribute('correct')
+        tag.innerHTML = '...'
     })
 
     let x = Math.floor(Math.random().toFixed(2) * (wordsAskG.length - 1))
@@ -249,13 +316,23 @@ function getWordG() {
     }
     let z = Math.floor(Math.random() * alts.length)
 
-    alts[z].innerHTML = wordsTradG[x]
-    alts[z].setAttribute("Correct", true)
+    if(lastAlt){
+        alts[z].innerHTML = wordsTradG[lastWord('G')]
+        alts[z].setAttribute("Correct", true)
 
-    word.style.color = 'yellow'
-    word.innerHTML = wordsAskG[x]
+        word.style.color = 'yellow'
+        word.innerHTML = wordsAskG[lastWord('G')]
 
-    used.push(wordsTradG[x])
+        used.push(wordsTradG[lastWord('G')])
+    } else if(!lastAlt){
+        alts[z].innerHTML = wordsTradG[x]
+        alts[z].setAttribute("Correct", true)
+
+        word.style.color = 'yellow'
+        word.innerHTML = wordsAskG[x]
+
+        used.push(wordsTradG[x])
+    }
 
     for (let x = 0; x <= 10; x++) {
         alts.forEach(tag => {
@@ -278,9 +355,10 @@ function getWordG() {
         })
     }
 }
-function getWordH() {
+function getWordH(lastAlt = false) {
     alts.forEach(tag => {
         tag.removeAttribute('correct')
+        tag.innerHTML = '...'
     })
 
     let x = Math.floor(Math.random().toFixed(2) * (wordsAskH.length - 1))
@@ -289,13 +367,23 @@ function getWordH() {
     }
     let z = Math.floor(Math.random() * alts.length)
 
-    alts[z].innerHTML = wordsTradH[x]
-    alts[z].setAttribute("Correct", true)
+    if(lastAlt){
+        alts[z].innerHTML = wordsTradH[lastWord('H')]
+        alts[z].setAttribute("Correct", true)
 
-    word.style.color = 'yellow'
-    word.innerHTML = wordsAskH[x]
+        word.style.color = 'yellow'
+        word.innerHTML = wordsAskH[lastWord('H')]
 
-    used.push(wordsTradH[x])
+        used.push(wordsTradH[lastWord('H')])
+    } else if(!lastAlt){
+        alts[z].innerHTML = wordsTradH[x]
+        alts[z].setAttribute("Correct", true)
+
+        word.style.color = 'yellow'
+        word.innerHTML = wordsAskH[x]
+
+        used.push(wordsTradH[x])
+    }
 
     for (let x = 0; x <= 10; x++) {
         alts.forEach(tag => {
@@ -318,9 +406,10 @@ function getWordH() {
         })
     }
 }
-function getWordI() {
+function getWordI(lastAlt = false) {
     alts.forEach(tag => {
         tag.removeAttribute('correct')
+        tag.innerHTML = '...'
     })
 
     let x = Math.floor(Math.random().toFixed(2) * (wordsAskI.length - 1))
@@ -329,13 +418,23 @@ function getWordI() {
     }
     let z = Math.floor(Math.random() * alts.length)
 
-    alts[z].innerHTML = wordsTradI[x]
-    alts[z].setAttribute("Correct", true)
+    if(lastAlt){
+        alts[z].innerHTML = wordsTradI[lastWord('I')]
+        alts[z].setAttribute("Correct", true)
 
-    word.style.color = 'yellow'
-    word.innerHTML = wordsAskI[x]
+        word.style.color = 'yellow'
+        word.innerHTML = wordsAskI[lastWord('I')]
 
-    used.push(wordsTradI[x])
+        used.push(wordsTradI[lastWord('I')])
+    } else if(!lastAlt){
+        alts[z].innerHTML = wordsTradI[x]
+        alts[z].setAttribute("Correct", true)
+
+        word.style.color = 'yellow'
+        word.innerHTML = wordsAskI[x]
+
+        used.push(wordsTradI[x])
+    }
 
     for (let x = 0; x <= 10; x++) {
         alts.forEach(tag => {
@@ -357,9 +456,10 @@ function getWordI() {
         })
     }
 }
-function getWordJ() {
+function getWordJ(lastAlt = false) {
     alts.forEach(tag => {
         tag.removeAttribute('correct')
+        tag.innerHTML = '...'
     })
 
     let x = Math.floor(Math.random().toFixed(2) * (wordsAskJ.length - 1))
@@ -368,13 +468,23 @@ function getWordJ() {
     }
     let z = Math.floor(Math.random() * alts.length)
 
-    alts[z].innerHTML = wordsTradJ[x]
-    alts[z].setAttribute("Correct", true)
+    if(lastAlt){
+        alts[z].innerHTML = wordsTradJ[lastWord('J')]
+        alts[z].setAttribute("Correct", true)
 
-    word.style.color = 'yellow'
-    word.innerHTML = wordsAskJ[x]
+        word.style.color = 'yellow'
+        word.innerHTML = wordsAskJ[lastWord('J')]
 
-    used.push(wordsTradJ[x])
+        used.push(wordsTradJ[lastWord('J')])
+    } else if(!lastAlt){
+        alts[z].innerHTML = wordsTradJ[x]
+        alts[z].setAttribute("Correct", true)
+
+        word.style.color = 'yellow'
+        word.innerHTML = wordsAskJ[x]
+
+        used.push(wordsTradJ[x])
+    }
 
     for (let x = 0; x <= 10; x++) {
         alts.forEach(tag => {
@@ -397,25 +507,35 @@ function getWordJ() {
         })
     }
 }
-function getWordK() {
+function getWordK(lastAlt = false) {
     alts.forEach(tag => {
         tag.removeAttribute('correct')
+        tag.innerHTML = '...'
     })
 
     let x = Math.floor(Math.random().toFixed(2) * (wordsAskK.length - 1))
     if (wordsAskK[x] == "") {
         x = Math.floor(Math.random().toFixed(2) * (wordsAskK.length - 1))
     }
-
     let z = Math.floor(Math.random() * alts.length)
 
-    alts[z].innerHTML = wordsTradK[x]
-    alts[z].setAttribute("Correct", true)
+    if(lastAlt){
+        alts[z].innerHTML = wordsTradK[lastWord('K')]
+        alts[z].setAttribute("Correct", true)
 
-    word.style.color = 'yellow'
-    word.innerHTML = wordsAskK[x]
+        word.style.color = 'yellow'
+        word.innerHTML = wordsAskK[lastWord('K')]
 
-    used.push(wordsTradK[x])
+        used.push(wordsTradK[lastWord('K')])
+    } else if(!lastAlt){
+        alts[z].innerHTML = wordsTradK[x]
+        alts[z].setAttribute("Correct", true)
+
+        word.style.color = 'yellow'
+        word.innerHTML = wordsAskK[x]
+
+        used.push(wordsTradK[x])
+    }
 
     for (let x = 0; x <= 10; x++) {
         alts.forEach(tag => {

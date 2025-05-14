@@ -49,7 +49,7 @@ function funcMiss(){
     } else if(letters.J){
         diference = wordsTradJ.filter(item => !correct.includes(item))
 
-    } else if(letters.k){
+    } else if(letters.K){
         diference = wordsTradK.filter(item => !correct.includes(item))
 
     }
