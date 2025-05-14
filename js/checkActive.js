@@ -173,13 +173,13 @@ function checked(tag, param = false, event) {
     }
 
     if (param) {
-        if (event.keyCode == 13) {
+        if (event.keyCode == 13 /*ENTER*/) {
             chance = 0
             check.style.display = 'none'
             check.classList.remove('wrong')
             check.innerHTML = ''
 
-        } else if(event.keyCode == 8){
+        } else if(event.keyCode == 8/*BACKSPACE*/){
             let obj2 = {
                 A: false,
                 B: false,
@@ -198,6 +198,8 @@ function checked(tag, param = false, event) {
             Array.from(document.querySelectorAll('li')).forEach(li => {
                 li.classList.remove('win')
             })
+        } else if(event.keyCode == 16 /*SHIFT*/){
+            attempt = 140
         }
     }
 }
