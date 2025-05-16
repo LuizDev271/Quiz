@@ -139,21 +139,21 @@ let wordsAskF = ['factory', 'fair', 'fall', 'family',
     'fresh', 'fridge', 'friend', 'froom',
     'fruit', 'fry', 'fulfill', 'funny',
     'furtner', 'fell', 'fix', 'freely',
-    'fudge', 'fur']
+    'fudge', 'fur', 'from', 'film']
 
 let wordsTradF = ['fábrica', 'justo', 'cair', 'família',
     'famoso', 'fazenda', 'rápido', 'gordo',
     'pai', 'mais gordo', 'favorito', 'sentimentos',
     'pés', 'febre', 'alguns', 'preencher',
-    'encontrar', 'multar', 'primeiro', 'peixe',
-    'plano', 'sabor', 'filme', 'amigável',
+    'encontrar', 'agradavel', 'primeiro', 'peixe',
+    'plano', 'sabor', 'agitar', 'amigável',
     'flor', 'canteiro de flores', 'flauta', 'voar',
     'vôo', 'comida', 'enganar', 'enganando',
     'esquecer', 'testa', 'quarto', 'livre',
     'fresco', 'geladeira', 'amigo', 'da sala',
     'fruta', 'fritar', 'completar', 'engraçado',
     'mais adiante', 'caiu', 'consertar', 'livremente',
-    'disfarçar', 'pele']
+    'disfarçar', 'pele', 'de', 'filme']
 
 //=======================
 // G
@@ -190,7 +190,7 @@ let wordsAskH = ['half', 'halt', 'hand', 'handwriting',
     'hurry', 'husband', 'had',
     'handy', 'heard', 'holed', 'humble']
 
-    let wordsTradH = ['metade', 'parar', 'mão', 'caligrafia',
+let wordsTradH = ['metade', 'parar', 'mão', 'caligrafia',
     'feliz', 'duro', 'severo', 'tem',
     'chapéu', 'ter', 'ouvir', 'paraíso',
     'celestial', 'diabos', 'preste atenção', 'ajuda',
@@ -209,7 +209,7 @@ let wordsAskI = ['i', 'impact', 'improved', 'in',
     'into', 'invitation', 'invite', 'is', 'increasingly',
     'itself']
 
-    
+
 let wordsTradI = ['eu', 'impacto', 'melhorou', 'em',
     'aumentar', 'de fato', 'inalar', 'interessante',
     'dentro', 'convite', 'convidar', 'é', 'cada vez mais',
