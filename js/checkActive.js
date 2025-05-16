@@ -180,24 +180,29 @@ function checked(tag, param = false, event) {
             check.innerHTML = ''
 
         } else if(event.keyCode == 8/*BACKSPACE*/){
-            let obj2 = {
-                A: false,
-                B: false,
-                C: false,
-                D: false,
-                E: false,
-                F: false,
-                G: false,
-                H: false,
-                I: false,
-                J: false,
-                K: false
+            let response = prompt("Certeza que quer resetar as letras??")
+
+            if(response == 'Sim' || response == "S"){
+                let obj2 = {
+                    A: false,
+                    B: false,
+                    C: false,
+                    D: false,
+                    E: false,
+                    F: false,
+                    G: false,
+                    H: false,
+                    I: false,
+                    J: false,
+                    K: false
+                }
+            
+                localStorage.setItem("lettersWins", JSON.stringify(obj2))
+                Array.from(document.querySelectorAll('li')).forEach(li => {
+                    li.classList.remove('win')
+                })
             }
-        
-            localStorage.setItem("lettersWins", JSON.stringify(obj2))
-            Array.from(document.querySelectorAll('li')).forEach(li => {
-                li.classList.remove('win')
-            })
+            
         } else if(event.keyCode == 16 /*SHIFT*/){
             attempt = 140
         }

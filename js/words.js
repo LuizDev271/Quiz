@@ -1,5 +1,5 @@
 //=======================
-// Arrays Words 
+// A
 
 let wordsAskA = ['a', 'accumulated', 'actor', 'adreess',
     'afternoon', 'ago', 'agree', 'agreement',
@@ -8,7 +8,23 @@ let wordsAskA = ['a', 'accumulated', 'actor', 'adreess',
     'am', 'and', 'angles', 'annoy', 'apartment',
     'apps', 'are', 'argue', 'arrest',
     'arrive', 'artist', 'asleep', 'at',
-    'attempts', 'awful']
+    'attempts', 'awful', 'able', 'acquaintance',
+    'across', 'against', 'almost', 'already',
+    'ambush', 'arrival', 'as']
+
+let wordsTradA = ['um', 'acumulado', 'ator', 'endereço',
+    'tarde', 'atrás', 'concordar', 'acordo',
+    'à frente', 'aeroporto', 'permitir', 'permitindo',
+    'junto', 'também', 'embora', 'sempre',
+    'sou', 'e', 'ângulos', 'irritar',
+    'apartamento', 'aplicativos', 'são', 'discutir',
+    'prender', 'chegar', 'artista', 'dormindo', 'no',
+    'tentativas', 'horrível', 'capaz', 'conhecimento',
+    'através', 'contra', 'quase', 'já',
+    'emboscada', 'chegada', 'como']
+
+//=======================
+// B
 
 let wordsAskB = ['bad', 'badge', 'bag', 'bank',
     'bat', 'be', 'beach', 'beard',
@@ -21,7 +37,27 @@ let wordsAskB = ['bad', 'badge', 'bag', 'bank',
     'brain', 'break', 'breakfast', 'bring',
     'bringing', 'brings', 'bummer', 'bump',
     'bus', 'business', 'busy', 'but',
-    'buy', 'box']
+    'buy', 'box', 'barely', 'barred', 'beat',
+    'begin', 'behave', 'behavior', 'blow',
+    'born', 'brought', 'burgled']
+
+let wordsTradB = ['ruim', 'distintivo', 'bolsa', 'banco',
+    'bastão', 'ser', 'praia', 'barba',
+    'lindo', 'cama', 'estive', 'cerveja',
+    'atrás', 'sendo', 'barriga', 'pertencer',
+    'superado', 'aposta', 'grande', 'bicicleta',
+    'pássaro', 'aniversário', 'culpa', 'culpado',
+    'blog', 'blusa', 'barco', 'livro',
+    'botas', 'tédio', 'tedioso', 'chefe',
+    'cérebro', 'quebrar', 'café da manhã', 'trazer',
+    'trazendo', 'traz', 'desapontamento', 'ressalto',
+    'ônibus', 'negócios', 'ocupado', 'mas',
+    'comprar', 'caixa', 'mal', 'barrado',
+    'bater', 'começar', 'comportar-se', 'comportamento', 'golpear',
+    'nascido', 'trouxe', 'roubado']
+
+//=======================
+// C
 
 let wordsAskC = ['cabin', 'came', 'camera', 'can',
     'candy', 'cannot', 'careful', 'careless',
@@ -33,7 +69,22 @@ let wordsAskC = ['cabin', 'came', 'camera', 'can',
     'coming', 'complain', 'comply', 'concerned',
     'cook', 'cool', 'cost', 'could',
     'crawl', 'crouch', 'crowds', 'cup',
-    'cute']
+    'cute', 'caught', 'clumsy', 'crispy', 'currently']
+
+let wordsTradC = ['cabine', 'veio', 'câmera', 'pode',
+    'doce', 'não pode', 'cuidadoso', 'descuidado',
+    'atencioso', 'carregar', 'pegar', 'centavos',
+    'corrente', 'barato', 'verificar', 'queijo',
+    'criança', 'cidades', 'cidade', 'reivindicações',
+    'reivindicou', 'aula', 'clique', 'relógio',
+    'roupas', 'nublado', 'casaco', 'frio',
+    'chegando', 'reclamar', 'cumprir', 'preocupado',
+    'cozinhar', 'legal', 'custo', 'poderia',
+    'arrastar', 'agachar', 'multidões', 'xícara',
+    'bonitinho', 'pego', 'desajeitado', 'crocante', 'atualmente']
+
+//=======================
+// D
 
 let wordsAskD = ['dance', 'dangerous', 'dark', 'darting',
     'date', 'daughter', 'day', 'dealt',
@@ -42,13 +93,39 @@ let wordsAskD = ['dance', 'dangerous', 'dark', 'darting',
     'different', 'dinner', 'dirty', 'dish',
     'dishes', 'do', 'dogs', 'dool',
     'downstairs', 'dress', 'drink', 'drinks',
-    'drive', 'drums', 'dunno']
+    'drive', 'drums', 'dunno', 'deal',
+    'dive', 'doubts', 'dull', 'dump', 'duties']
+
+let wordsTradD = ['dança', 'perigoso', 'escuro', 'arremessando',
+    'data', 'filha', 'dia', 'tratado',
+    'obra', 'delicioso', 'dentista', 'esgotando',
+    'mesa', 'diário', 'dicionário', 'Fez',
+    'diferente', 'jantar', 'sujo', 'prato',
+    'pratos', 'fazer', 'cães', 'boneca',
+    'lá embaixo', 'vestir', 'bebida', 'bebidas',
+    'dirigir', 'bateria', 'não sei', 'negócio',
+    'mergulho', 'dúvidas', 'chato', 'despejo', 'obrigações']
+
+//=======================
+// E
 
 let wordsAskE = ['each', 'early', 'earthlings', 'elegant',
     'else', 'enjoy', 'enough', 'even',
     'evening', 'ever', 'every', 'exam',
     'exchange', 'excuse', 'exercise', 'exhale',
-    'expensive']
+    'expensive', 'entire', 'entwine', 'examining',
+    'exhibiting', 'expect']
+
+
+let wordsTradE = ['cada', 'cedo', 'terráqueos', 'elegante',
+    'outro', 'aproveitar', 'suficiente', 'até',
+    'noite', 'sempre', 'todo', 'exame',
+    'intercâmbio', 'desculpa', 'exercício', 'expirar',
+    'caro', 'inteiro', 'entrelaçar', 'examinando',
+    'exibindo', 'esperar']
+
+//=======================
+// F
 
 let wordsAskF = ['factory', 'fair', 'fall', 'family',
     'famous', 'farm', 'fast', 'fat',
@@ -61,87 +138,9 @@ let wordsAskF = ['factory', 'fair', 'fall', 'family',
     'forget', 'forhead', 'fouth', 'free',
     'fresh', 'fridge', 'friend', 'froom',
     'fruit', 'fry', 'fulfill', 'funny',
-    'furtner']
+    'furtner', 'fell', 'fix', 'freely',
+    'fudge', 'fur']
 
-let wordsAskG = ['game', 'garden', 'gates', 'gateway',
-    'genius', 'get', 'getting', 'girlfriend',
-    'give', 'glad', 'glasses', 'glew',
-    'go', 'going', 'gonna', 'good',
-    'goodbye', 'gotta', 'gotten', 'grandparents',
-    'grass', 'great', 'grind', 'grown',
-    'grows', 'guess', 'guest']
-
-let wordsAskH = ['half', 'halt', 'hand', 'handwriting',
-    'happy', 'hard', 'harsh', 'has',
-    'hat', 'have', 'hear', 'heaven',
-    'heavenly', 'heck', 'heed', 'help',
-    'here', 'hi', 'hideous', 'him',
-    'hired', 'his', 'holds', 'holiday',
-    'home', 'homework', 'honey', 'hop',
-    'house', 'how', 'however', 'hungry',
-    'hurry', 'husband']
-
-let wordsAskI = ['i', 'impact', 'improved', 'in',
-    'increase', 'indeed', 'inhale', 'interesting',
-    'into', 'invitation', 'invite', 'is']
-
-let wordsAskJ = ['jacket', 'janitor', 'job']
-
-let wordsAskK = ['keep', 'keys', 'kitchen', 'knew',
-    'knife', 'know']
-
-//=======================
-// Arrays Words Trad 
-
-let wordsTradA = ['um', 'acumulado', 'ator', 'endereço',
-    'tarde', 'atrás', 'concordar', 'acordo',
-    'à frente', 'aeroporto', 'permitir', 'permitindo',
-    'junto', 'também', 'embora', 'sempre',
-    'sou', 'e', 'ângulos', 'irritar',
-    'apartamento', 'aplicativos', 'são', 'discutir',
-    'prender', 'chegar', 'artista', 'dormindo', 'no',
-    'tentativas', 'horrível']
-    
-let wordsTradB = ['ruim', 'distintivo', 'bolsa', 'banco',
-    'bastão', 'ser', 'praia', 'barba',
-    'lindo', 'cama', 'estive', 'cerveja',
-    'atrás', 'sendo', 'barriga', 'pertencer',
-    'superado', 'aposta', 'grande', 'bicicleta',
-    'pássaro', 'aniversário', 'culpa', 'culpado',
-    'blog', 'blusa', 'barco', 'livro',
-    'botas', 'tédio', 'tedioso', 'chefe',
-    'cérebro', 'quebrar', 'café da manhã', 'trazer',
-    'trazendo', 'traz', 'desapontamento', 'ressalto',
-    'ônibus', 'negócios', 'ocupado', 'mas',
-    'comprar', 'caixa']
-    
-let wordsTradC = ['cabine', 'veio', 'câmera', 'pode',
-    'doce', 'não pode', 'cuidadoso', 'descuidado',
-    'atencioso', 'carregar', 'pegar', 'centavos',
-    'corrente', 'barato', 'verificar', 'queijo',
-    'criança', 'cidades', 'cidade', 'reivindicações',
-    'reivindicou', 'aula', 'clique', 'relógio',
-    'roupas', 'nublado', 'casaco', 'frio',
-    'chegando', 'reclamar', 'cumprir', 'preocupado',
-    'cozinhar', 'legal', 'custo', 'poderia',
-    'arrastar', 'agachar', 'multidões', 'xícara',
-    'bonitinho']
-    
-let wordsTradD = ['dança', 'perigoso', 'escuro', 'arremessando',
-    'data', 'filha', 'dia', 'tratado',
-    'obra', 'delicioso', 'dentista', 'esgotando',
-    'mesa', 'diário', 'dicionário', 'Fez',
-    'diferente', 'jantar', 'sujo', 'prato',
-    'pratos', 'fazer', 'cães', 'boneca',
-    'lá embaixo', 'vestir', 'bebida', 'bebidas',
-    'dirigir', 'bateria', 'não sei']
-    
-let wordsTradE = ['cada', 'cedo', 'terráqueos', 'elegante',
-    'outro', 'aproveitar', 'suficiente', 'até',
-    'noite', 'sempre', 'todo', 'exame',
-    'intercâmbio', 'desculpa', 'exercício', 'expirar',
-    'caro']
-    
 let wordsTradF = ['fábrica', 'justo', 'cair', 'família',
     'famoso', 'fazenda', 'rápido', 'gordo',
     'pai', 'mais gordo', 'favorito', 'sentimentos',
@@ -153,17 +152,45 @@ let wordsTradF = ['fábrica', 'justo', 'cair', 'família',
     'esquecer', 'testa', 'quarto', 'livre',
     'fresco', 'geladeira', 'amigo', 'da sala',
     'fruta', 'fritar', 'completar', 'engraçado',
-    'mais adiante']
-    
+    'mais adiante', 'caiu', 'consertar', 'livremente',
+    'disfarçar', 'pele']
+
+//=======================
+// G
+
+let wordsAskG = ['game', 'garden', 'gates', 'gateway',
+    'genius', 'get', 'getting', 'girlfriend',
+    'give', 'glad', 'glasses', 'glew',
+    'go', 'going', 'gonna', 'good',
+    'goodbye', 'gotta', 'gotten', 'grandparents',
+    'grass', 'great', 'grind', 'grown',
+    'grows', 'guess', 'guest', 'general',
+    'glance', 'goners', 'greeting']
+
 let wordsTradG = ['jogo', 'jardim', 'portões', 'porta de entrada',
     'gênio', 'pegar', 'recebendo', 'namorada',
     'dar', 'alegre', 'copos', 'brilhou',
     'ir', 'indo', 'vai', 'bom',
     'adeus', 'preciso', 'pego', 'avós',
     'grama', 'ótimo', 'moer', 'crescido',
-    'cresce', 'adivinhar', 'convidado']
-    
-let wordsTradH = ['metade', 'parar', 'mão', 'caligrafia',
+    'cresce', 'adivinhar', 'convidado', 'geral',
+    'olhar', 'perdidos', 'saudação']
+
+//=======================
+// H
+
+let wordsAskH = ['half', 'halt', 'hand', 'handwriting',
+    'happy', 'hard', 'harsh', 'has',
+    'hat', 'have', 'hear', 'heaven',
+    'heavenly', 'heck', 'heed', 'help',
+    'here', 'hi', 'hideous', 'him',
+    'hired', 'his', 'holds', 'holiday',
+    'home', 'homework', 'honey', 'hop',
+    'house', 'how', 'however', 'hungry',
+    'hurry', 'husband', 'had',
+    'handy', 'heard', 'holed', 'humble']
+
+    let wordsTradH = ['metade', 'parar', 'mão', 'caligrafia',
     'feliz', 'duro', 'severo', 'tem',
     'chapéu', 'ter', 'ouvir', 'paraíso',
     'celestial', 'diabos', 'preste atenção', 'ajuda',
@@ -171,13 +198,55 @@ let wordsTradH = ['metade', 'parar', 'mão', 'caligrafia',
     'contratado', 'dele', 'detém', 'feriado',
     'lar', 'trabalho de casa', 'mel', 'saltar',
     'casa', 'como', 'no entanto', 'com fome',
-    'pressa', 'marido']
+    'pressa', 'marido', 'tinha',
+    'útil', 'ouvido', 'furado', 'humilde']
+
+//=======================
+// I
+
+let wordsAskI = ['i', 'impact', 'improved', 'in',
+    'increase', 'indeed', 'inhale', 'interesting',
+    'into', 'invitation', 'invite', 'is', 'increasingly',
+    'itself']
+
     
 let wordsTradI = ['eu', 'impacto', 'melhorou', 'em',
     'aumentar', 'de fato', 'inalar', 'interessante',
-    'dentro', 'convite', 'convidar', 'é']
-    
-let wordsTradJ = ['jaqueta', 'zelador', 'trabalho']
+    'dentro', 'convite', 'convidar', 'é', 'cada vez mais',
+    'em si']
+
+//=======================
+// J
+
+let wordsAskJ = ['jacket', 'janitor', 'job', 'just']
+
+let wordsTradJ = ['jaqueta', 'zelador', 'trabalho', 'apenas']
+
+//=======================
+// K
+
+let wordsAskK = ['keep', 'keys', 'kitchen', 'knew',
+    'knife', 'know', 'Kicked', 'knees']
 
 let wordsTradK = ['manter', 'chaves', 'cozinha', 'sabia',
-    'faca', 'saber']
+    'faca', 'saber', 'chutado', 'joelhos']
+
+//=======================
+// L
+
+//=======================
+// N
+
+//=======================
+// O
+
+//=======================
+// Q
+
+//=======================
+// V
+
+//=======================
+// Y
+
+
