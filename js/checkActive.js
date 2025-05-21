@@ -159,6 +159,84 @@ function checked(tag, param = false, event) {
                         liWin("K")
                         letterWin("K")
                     }
+                } else if (letters.L) {
+                    if(attempt >= 150 && (wordsTradL.length - correct.length) == 1){
+                        getWordL(true)
+                    } else {
+                        getWordL(false)
+                    }
+
+                    words.innerHTML = `${wordsAskL.length - correct.length}`
+
+                    if (correct.length == wordsTradL.length) {
+                        liWin("L")
+                        letterWin("L")
+                    }
+                } else if (letters.N) {
+                    if(attempt >= 150 && (wordsTradN.length - correct.length) == 1){
+                        getWordN(true)
+                    } else {
+                        getWordN(false)
+                    }
+
+                    words.innerHTML = `${wordsAskN.length - correct.length}`
+
+                    if (correct.length == wordsTradN.length) {
+                        liWin("N")
+                        letterWin("N")
+                    }
+                } else if (letters.O) {
+                    if(attempt >= 150 && (wordsTradO.length - correct.length) == 1){
+                        getWordO(true)
+                    } else {
+                        getWordO(false)
+                    }
+
+                    words.innerHTML = `${wordsAskO.length - correct.length}`
+
+                    if (correct.length == wordsTradO.length) {
+                        liWin("O")
+                        letterWin("O")
+                    }
+                } else if (letters.Q) {
+                    if(attempt >= 150 && (wordsTradQ.length - correct.length) == 1){
+                        getWordQ(true)
+                    } else {
+                        getWordQ(false)
+                    }
+
+                    words.innerHTML = `${wordsAskQ.length - correct.length}`
+
+                    if (correct.length == wordsTradQ.length) {
+                        liWin("Q")
+                        letterWin("Q")
+                    }
+                } else if (letters.V) {
+                    if(attempt >= 150 && (wordsTradV.length - correct.length) == 1){
+                        getWordV(true)
+                    } else {
+                        getWordV(false)
+                    }
+
+                    words.innerHTML = `${wordsAskV.length - correct.length}`
+
+                    if (correct.length == wordsTradV.length) {
+                        liWin("V")
+                        letterWin("V")
+                    }
+                } else if (letters.Y) {
+                    if(attempt >= 150 && (wordsTradY.length - correct.length) == 1){
+                        getWordY(true)
+                    } else {
+                        getWordY(false)
+                    }
+
+                    words.innerHTML = `${wordsAskY.length - correct.length}`
+
+                    if (correct.length == wordsTradY.length) {
+                        liWin("Y")
+                        letterWin("Y")
+                    }
                 }
 
             } else {
@@ -182,7 +260,7 @@ function checked(tag, param = false, event) {
         } else if(event.keyCode == 8/*BACKSPACE*/){
             let response = prompt("Certeza que quer resetar as letras??")
 
-            if(response == 'Sim' || response == "S"){
+            if(response == 'Sim' || response == "S" || response == "ss" || response == "s"){
                 let obj2 = {
                     A: false,
                     B: false,
@@ -194,7 +272,13 @@ function checked(tag, param = false, event) {
                     H: false,
                     I: false,
                     J: false,
-                    K: false
+                    K: false,
+                    L: false,
+                    N: false,
+                    O: false,
+                    Q: false,
+                    V: false,
+                    Y: false
                 }
             
                 localStorage.setItem("lettersWins", JSON.stringify(obj2))
@@ -204,7 +288,7 @@ function checked(tag, param = false, event) {
             }
             
         } else if(event.keyCode == 16 /*SHIFT*/){
-            attempt = 140
+            attempt = 145
         }
     }
 }
@@ -235,7 +319,13 @@ letters.forEach(tag => {
                 H: false,
                 I: false,
                 J: false,
-                K: false
+                K: false,
+                L: false,
+                N: false,
+                O: false,
+                Q: false,
+                V: false,
+                Y: false
             }
 
             localStorage.setItem("letters", JSON.stringify(obj))
@@ -256,7 +346,13 @@ letters.forEach(tag => {
                 H: false,
                 I: false,
                 J: false,
-                K: false
+                K: false,
+                L: false,
+                N: false,
+                O: false,
+                Q: false,
+                V: false,
+                Y: false
             }
 
             localStorage.setItem("letters", JSON.stringify(obj))
@@ -277,7 +373,13 @@ letters.forEach(tag => {
                 H: false,
                 I: false,
                 J: false,
-                K: false
+                K: false,
+                L: false,
+                N: false,
+                O: false,
+                Q: false,
+                V: false,
+                Y: false
             }
 
             localStorage.setItem("letters", JSON.stringify(obj))
@@ -298,7 +400,13 @@ letters.forEach(tag => {
                 H: false,
                 I: false,
                 J: false,
-                K: false
+                K: false,
+                L: false,
+                N: false,
+                O: false,
+                Q: false,
+                V: false,
+                Y: false
             }
 
             localStorage.setItem("letters", JSON.stringify(obj))
@@ -318,7 +426,13 @@ letters.forEach(tag => {
                 H: false,
                 I: false,
                 J: false,
-                K: false
+                K: false,
+                L: false,
+                N: false,
+                O: false,
+                Q: false,
+                V: false,
+                Y: false
             }
 
             localStorage.setItem("letters", JSON.stringify(obj))
@@ -339,7 +453,13 @@ letters.forEach(tag => {
                 H: false,
                 I: false,
                 J: false,
-                K: false
+                K: false,
+                L: false,
+                N: false,
+                O: false,
+                Q: false,
+                V: false,
+                Y: false
             }
 
             localStorage.setItem("letters", JSON.stringify(obj))
@@ -360,7 +480,13 @@ letters.forEach(tag => {
                 H: false,
                 I: false,
                 J: false,
-                K: false
+                K: false,
+                L: false,
+                N: false,
+                O: false,
+                Q: false,
+                V: false,
+                Y: false
             }
 
             localStorage.setItem("letters", JSON.stringify(obj))
@@ -381,7 +507,13 @@ letters.forEach(tag => {
                 H: true,
                 I: false,
                 J: false,
-                K: false
+                K: false,
+                L: false,
+                N: false,
+                O: false,
+                Q: false,
+                V: false,
+                Y: false
             }
 
             localStorage.setItem("letters", JSON.stringify(obj))
@@ -402,7 +534,13 @@ letters.forEach(tag => {
                 H: false,
                 I: true,
                 J: false,
-                K: false
+                K: false,
+                L: false,
+                N: false,
+                O: false,
+                Q: false,
+                V: false,
+                Y: false
             }
 
             localStorage.setItem("letters", JSON.stringify(obj))
@@ -423,7 +561,13 @@ letters.forEach(tag => {
                 H: false,
                 I: false,
                 J: true,
-                K: false
+                K: false,
+                L: false,
+                N: false,
+                O: false,
+                Q: false,
+                V: false,
+                Y: false
             }
 
             localStorage.setItem("letters", JSON.stringify(obj))
@@ -444,12 +588,180 @@ letters.forEach(tag => {
                 H: false,
                 I: false,
                 J: false,
-                K: true
+                K: true,
+                L: false,
+                N: false,
+                O: false,
+                Q: false,
+                V: false,
+                Y: false
             }
 
             localStorage.setItem("letters", JSON.stringify(obj))
 
             getWordK()
+            used = []
+            correct = []
+            missing.innerHTML = ''
+        } else if (tag.innerHTML == 'L') {
+            let obj = {
+                A: false,
+                B: false,
+                C: false,
+                D: false,
+                E: false,
+                F: false,
+                G: false,
+                H: false,
+                I: false,
+                J: false,
+                K: false,
+                L: true,
+                N: false,
+                O: false,
+                Q: false,
+                V: false,
+                Y: false
+            }
+
+            localStorage.setItem("letters", JSON.stringify(obj))
+
+            getWordL()
+            used = []
+            correct = []
+            missing.innerHTML = ''
+        } else if (tag.innerHTML == 'N') {
+            let obj = {
+                A: false,
+                B: false,
+                C: false,
+                D: false,
+                E: false,
+                F: false,
+                G: false,
+                H: false,
+                I: false,
+                J: false,
+                K: false,
+                L: false,
+                N: true,
+                O: false,
+                Q: false,
+                V: false,
+                Y: false
+            }
+
+            localStorage.setItem("letters", JSON.stringify(obj))
+
+            getWordN()
+            used = []
+            correct = []
+            missing.innerHTML = ''
+        } else if (tag.innerHTML == 'O') {
+            let obj = {
+                A: false,
+                B: false,
+                C: false,
+                D: false,
+                E: false,
+                F: false,
+                G: false,
+                H: false,
+                I: false,
+                J: false,
+                K: false,
+                L: false,
+                N: false,
+                O: true,
+                Q: false,
+                V: false,
+                Y: false
+            }
+
+            localStorage.setItem("letters", JSON.stringify(obj))
+
+            getWordO()
+            used = []
+            correct = []
+            missing.innerHTML = ''
+        } else if (tag.innerHTML == 'Q') {
+            let obj = {
+                A: false,
+                B: false,
+                C: false,
+                D: false,
+                E: false,
+                F: false,
+                G: false,
+                H: false,
+                I: false,
+                J: false,
+                K: false,
+                L: false,
+                N: false,
+                O: false,
+                Q: true,
+                V: false,
+                Y: false
+            }
+
+            localStorage.setItem("letters", JSON.stringify(obj))
+
+            getWordQ()
+            used = []
+            correct = []
+            missing.innerHTML = ''
+        } else if (tag.innerHTML == 'V') {
+            let obj = {
+                A: false,
+                B: false,
+                C: false,
+                D: false,
+                E: false,
+                F: false,
+                G: false,
+                H: false,
+                I: false,
+                J: false,
+                K: false,
+                L: false,
+                N: false,
+                O: false,
+                Q: false,
+                V: true,
+                Y: false
+            }
+
+            localStorage.setItem("letters", JSON.stringify(obj))
+
+            getWordV()
+            used = []
+            correct = []
+            missing.innerHTML = ''
+        } else if (tag.innerHTML == 'Y') {
+            let obj = {
+                A: false,
+                B: false,
+                C: false,
+                D: false,
+                E: false,
+                F: false,
+                G: false,
+                H: false,
+                I: false,
+                J: false,
+                K: false,
+                L: false,
+                N: false,
+                O: false,
+                Q: false,
+                V: false,
+                Y: true
+            }
+
+            localStorage.setItem("letters", JSON.stringify(obj))
+
+            getWordY()
             used = []
             correct = []
             missing.innerHTML = ''

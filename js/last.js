@@ -113,6 +113,66 @@ function lastWord(letter) {
             })
 
             break
+        case 'L':
+            lastLetter = wordsTradL.filter(item => !correct.includes(item))[0]
+
+            wordsTradL.forEach((word, index) => {
+                if (lastLetter == word) {
+                    number = index
+                }
+            })
+
+            break
+        case 'N':
+            lastLetter = wordsTradN.filter(item => !correct.includes(item))[0]
+
+            wordsTradN.forEach((word, index) => {
+                if (lastLetter == word) {
+                    number = index
+                }
+            })
+
+            break
+        case 'O':
+            lastLetter = wordsTradO.filter(item => !correct.includes(item))[0]
+
+            wordsTradO.forEach((word, index) => {
+                if (lastLetter == word) {
+                    number = index
+                }
+            })
+
+            break
+        case 'Q':
+            lastLetter = wordsTradQ.filter(item => !correct.includes(item))[0]
+
+            wordsTradQ.forEach((word, index) => {
+                if (lastLetter == word) {
+                    number = index
+                }
+            })
+
+            break
+        case 'V':
+            lastLetter = wordsTradV.filter(item => !correct.includes(item))[0]
+
+            wordsTradV.forEach((word, index) => {
+                if (lastLetter == word) {
+                    number = index
+                }
+            })
+
+            break
+        case 'Y':
+            lastLetter = wordsTradY.filter(item => !correct.includes(item))[0]
+
+            wordsTradY.forEach((word, index) => {
+                if (lastLetter == word) {
+                    number = index
+                }
+            })
+
+            break
     }
 
     return number

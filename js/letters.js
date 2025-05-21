@@ -15,7 +15,13 @@ function letterWin(param) {
                 H: letters.H ? true : false,
                 I: letters.I ? true : false,
                 J: letters.J ? true : false,
-                K: letters.K ? true : false
+                K: letters.K ? true : false,
+                L: letters.K ? true : false,
+                N: letters.K ? true : false,
+                O: letters.K ? true : false,
+                Q: letters.K ? true : false,
+                V: letters.K ? true : false,
+                Y: letters.K ? true : false
             }
 
             localStorage.setItem("lettersWins", JSON.stringify(obj))
@@ -32,7 +38,14 @@ function letterWin(param) {
                 H: letters.H ? true : false,
                 I: letters.I ? true : false,
                 J: letters.J ? true : false,
-                K: letters.K ? true : false
+                K: letters.K ? true : false,
+                L: letters.L ? true : false,
+                N: letters.N ? true : false,
+                O: letters.O ? true : false,
+                Q: letters.Q ? true : false,
+                V: letters.V ? true : false,
+                Y: letters.Y ? true : false
+                
             }
 
             localStorage.setItem("lettersWins", JSON.stringify(obj))
@@ -49,7 +62,13 @@ function letterWin(param) {
                 H: letters.H ? true : false,
                 I: letters.I ? true : false,
                 J: letters.J ? true : false,
-                K: letters.K ? true : false
+                K: letters.K ? true : false,
+                L: letters.L ? true : false,
+                N: letters.N ? true : false,
+                O: letters.O ? true : false,
+                Q: letters.Q ? true : false,
+                V: letters.V ? true : false,
+                Y: letters.Y ? true : false
             }
 
             localStorage.setItem("lettersWins", JSON.stringify(obj))
@@ -66,7 +85,13 @@ function letterWin(param) {
                 H: letters.H ? true : false,
                 I: letters.I ? true : false,
                 J: letters.J ? true : false,
-                K: letters.K ? true : false
+                K: letters.K ? true : false,
+                L: letters.L ? true : false,
+                N: letters.N ? true : false,
+                O: letters.O ? true : false,
+                Q: letters.Q ? true : false,
+                V: letters.V ? true : false,
+                Y: letters.Y ? true : false
             }
 
             localStorage.setItem("lettersWins", JSON.stringify(obj))
@@ -83,7 +108,13 @@ function letterWin(param) {
                 H: letters.H ? true : false,
                 I: letters.I ? true : false,
                 J: letters.J ? true : false,
-                K: letters.K ? true : false
+                K: letters.K ? true : false,
+                L: letters.L ? true : false,
+                N: letters.N ? true : false,
+                O: letters.O ? true : false,
+                Q: letters.Q ? true : false,
+                V: letters.V ? true : false,
+                Y: letters.Y ? true : false
             }
 
             localStorage.setItem("lettersWins", JSON.stringify(obj))
@@ -100,7 +131,13 @@ function letterWin(param) {
                 H: letters.H ? true : false,
                 I: letters.I ? true : false,
                 J: letters.J ? true : false,
-                K: letters.K ? true : false
+                K: letters.K ? true : false,
+                L: letters.L ? true : false,
+                N: letters.N ? true : false,
+                O: letters.O ? true : false,
+                Q: letters.Q ? true : false,
+                V: letters.V ? true : false,
+                Y: letters.Y ? true : false
             }
 
             localStorage.setItem("lettersWins", JSON.stringify(obj))
@@ -117,7 +154,13 @@ function letterWin(param) {
                 H: letters.H ? true : false,
                 I: letters.I ? true : false,
                 J: letters.J ? true : false,
-                K: letters.K ? true : false
+                K: letters.K ? true : false,
+                L: letters.L ? true : false,
+                N: letters.N ? true : false,
+                O: letters.O ? true : false,
+                Q: letters.Q ? true : false,
+                V: letters.V ? true : false,
+                Y: letters.Y ? true : false
             }
 
             localStorage.setItem("lettersWins", JSON.stringify(obj))
@@ -134,7 +177,13 @@ function letterWin(param) {
                 H: true,
                 I: letters.I ? true : false,
                 J: letters.J ? true : false,
-                K: letters.K ? true : false
+                K: letters.K ? true : false,
+                L: letters.L ? true : false,
+                N: letters.N ? true : false,
+                O: letters.O ? true : false,
+                Q: letters.Q ? true : false,
+                V: letters.V ? true : false,
+                Y: letters.Y ? true : false
             }
 
             localStorage.setItem("lettersWins", JSON.stringify(obj))
@@ -151,7 +200,13 @@ function letterWin(param) {
                 H: letters.H ? true : false,
                 I: true,
                 J: letters.J ? true : false,
-                K: letters.K ? true : false
+                K: letters.K ? true : false,
+                L: letters.L ? true : false,
+                N: letters.N ? true : false,
+                O: letters.O ? true : false,
+                Q: letters.Q ? true : false,
+                V: letters.V ? true : false,
+                Y: letters.Y ? true : false
             }
 
             localStorage.setItem("lettersWins", JSON.stringify(obj))
@@ -168,7 +223,13 @@ function letterWin(param) {
                 H: letters.H ? true : false,
                 I: letters.I ? true : false,
                 J: true,
-                K: letters.K ? true : false
+                K: letters.K ? true : false,
+                L: letters.L ? true : false,
+                N: letters.N ? true : false,
+                O: letters.O ? true : false,
+                Q: letters.Q ? true : false,
+                V: letters.V ? true : false,
+                Y: letters.Y ? true : false
             }
 
             localStorage.setItem("lettersWins", JSON.stringify(obj))
@@ -185,7 +246,151 @@ function letterWin(param) {
                 H: letters.H ? true : false,
                 I: letters.I ? true : false,
                 J: letters.J ? true : false,
-                K: true
+                K: true,
+                L: letters.L ? true : false,
+                N: letters.N ? true : false,
+                O: letters.O ? true : false,
+                Q: letters.Q ? true : false,
+                V: letters.V ? true : false,
+                Y: letters.Y ? true : false
+            }
+
+            localStorage.setItem("lettersWins", JSON.stringify(obj))
+            break
+        case "L":
+            obj = {
+                A: letters.A ? true : false,
+                B: letters.B ? true : false,
+                C: letters.C ? true : false,
+                D: letters.D ? true : false,
+                E: letters.E ? true : false,
+                F: letters.F ? true : false,
+                G: letters.G ? true : false,
+                H: letters.H ? true : false,
+                I: letters.I ? true : false,
+                J: letters.J ? true : false,
+                K: letters.K ? true : false,
+                L: true,
+                N: letters.N ? true : false,
+                O: letters.O ? true : false,
+                Q: letters.Q ? true : false,
+                V: letters.V ? true : false,
+                Y: letters.Y ? true : false
+            }
+
+            localStorage.setItem("lettersWins", JSON.stringify(obj))
+            break
+        case "N":
+            obj = {
+                A: letters.A ? true : false,
+                B: letters.B ? true : false,
+                C: letters.C ? true : false,
+                D: letters.D ? true : false,
+                E: letters.E ? true : false,
+                F: letters.F ? true : false,
+                G: letters.G ? true : false,
+                H: letters.H ? true : false,
+                I: letters.I ? true : false,
+                J: letters.J ? true : false,
+                K: letters.K ? true : false,
+                L: letters.L ? true : false,
+                N: true,
+                O: letters.O ? true : false,
+                Q: letters.Q ? true : false,
+                V: letters.V ? true : false,
+                Y: letters.Y ? true : false
+            }
+
+            localStorage.setItem("lettersWins", JSON.stringify(obj))
+            break
+        case "O":
+            obj = {
+                A: letters.A ? true : false,
+                B: letters.B ? true : false,
+                C: letters.C ? true : false,
+                D: letters.D ? true : false,
+                E: letters.E ? true : false,
+                F: letters.F ? true : false,
+                G: letters.G ? true : false,
+                H: letters.H ? true : false,
+                I: letters.I ? true : false,
+                J: letters.J ? true : false,
+                K: letters.K ? true : false,
+                L: letters.L ? true : false,
+                N: letters.N ? true : false,
+                O: true,
+                Q: letters.Q ? true : false,
+                V: letters.V ? true : false,
+                Y: letters.Y ? true : false
+            }
+
+            localStorage.setItem("lettersWins", JSON.stringify(obj))
+            break
+        case "Q":
+            obj = {
+                A: letters.A ? true : false,
+                B: letters.B ? true : false,
+                C: letters.C ? true : false,
+                D: letters.D ? true : false,
+                E: letters.E ? true : false,
+                F: letters.F ? true : false,
+                G: letters.G ? true : false,
+                H: letters.H ? true : false,
+                I: letters.I ? true : false,
+                J: letters.J ? true : false,
+                K: letters.K ? true : false,
+                L: letters.L ? true : false,
+                N: letters.N ? true : false,
+                O: letters.O ? true : false,
+                Q: true,
+                V: letters.V ? true : false,
+                Y: letters.Y ? true : false
+            }
+
+            localStorage.setItem("lettersWins", JSON.stringify(obj))
+            break
+        case "V":
+            obj = {
+                A: letters.A ? true : false,
+                B: letters.B ? true : false,
+                C: letters.C ? true : false,
+                D: letters.D ? true : false,
+                E: letters.E ? true : false,
+                F: letters.F ? true : false,
+                G: letters.G ? true : false,
+                H: letters.H ? true : false,
+                I: letters.I ? true : false,
+                J: letters.J ? true : false,
+                K: letters.K ? true : false,
+                L: letters.L ? true : false,
+                N: letters.N ? true : false,
+                O: letters.O ? true : false,
+                Q: letters.Q ? true : false,
+                V: true,
+                Y: letters.Y ? true : false
+            }
+
+            localStorage.setItem("lettersWins", JSON.stringify(obj))
+            break
+        case "Y":
+            obj = {
+                A: letters.A ? true : false,
+                B: letters.B ? true : false,
+                C: letters.C ? true : false,
+                D: letters.D ? true : false,
+                E: letters.E ? true : false,
+                F: letters.F ? true : false,
+                G: letters.G ? true : false,
+                H: letters.H ? true : false,
+                I: letters.I ? true : false,
+                J: letters.J ? true : false,
+                K: letters.K ? true : false,
+                L: letters.L ? true : false,
+                N: letters.N ? true : false,
+                O: letters.O ? true : false,
+                Q: letters.Q ? true : false,
+                V: letters.V ? true : false,
+                Y: true
             }
 
             localStorage.setItem("lettersWins", JSON.stringify(obj))
@@ -218,6 +423,18 @@ function getLetterWin(){
         liWin("J", true)
     } else if(letters.K){
         liWin("K", true)
+    } else if(letters.L){
+        liWin("L", true)
+    } else if(letters.N){
+        liWin("N", true)
+    } else if(letters.O){
+        liWin("O", true)
+    } else if(letters.Q){
+        liWin("Q", true)
+    } else if(letters.V){
+        liWin("V", true)
+    } else if(letters.Y){
+        liWin("Y", true)
     }
     
 }
@@ -260,6 +477,24 @@ function lastLetter() {
     } else if (letters.K) {
         getWordK()
         activeLetter("K")
+    } else if (letters.L) {
+        getWordL()
+        activeLetter("L")
+    } else if (letters.N) {
+        getWordN()
+        activeLetter("N")
+    } else if (letters.O) {
+        getWordO()
+        activeLetter("O")
+    } else if (letters.Q) {
+        getWordQ()
+        activeLetter("Q")
+    } else if (letters.V) {
+        getWordV()
+        activeLetter("V")
+    } else if (letters.Y) {
+        getWordY()
+        activeLetter("Y")
     }
 }
 
@@ -287,5 +522,17 @@ function activeLetter(letter) {
         liArray(true, "J")
     } else if (letter == "K") {
         liArray(true, "K")
+    } else if (letter == "L") {
+        liArray(true, "L")
+    } else if (letter == "N") {
+        liArray(true, "N")
+    } else if (letter == "O") {
+        liArray(true, "O")
+    } else if (letter == "Q") {
+        liArray(true, "Q")
+    } else if (letter == "V") {
+        liArray(true, "V")
+    } else if (letter == "Y") {
+        liArray(true, "Y")
     }
 }

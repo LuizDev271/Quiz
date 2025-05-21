@@ -52,6 +52,24 @@ function funcMiss(){
     } else if(letters.K){
         diference = wordsTradK.filter(item => !correct.includes(item))
 
+    } else if(letters.L){
+        diference = wordsTradL.filter(item => !correct.includes(item))
+
+    } else if(letters.N){
+        diference = wordsTradN.filter(item => !correct.includes(item))
+
+    } else if(letters.O){
+        diference = wordsTradO.filter(item => !correct.includes(item))
+
+    } else if(letters.Q){
+        diference = wordsTradQ.filter(item => !correct.includes(item))
+
+    } else if(letters.V){
+        diference = wordsTradV.filter(item => !correct.includes(item))
+
+    } else if(letters.Y){
+        diference = wordsTradY.filter(item => !correct.includes(item))
+
     }
     
     return diference

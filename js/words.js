@@ -234,19 +234,73 @@ let wordsTradK = ['manter', 'chaves', 'cozinha', 'sabia',
 //=======================
 // L
 
+let wordsAskL = ['laptops','last','late','laughs',
+    'laws','layer','lazy','lazybones',
+    'leans','learning','leash','least',
+    'leave','library','like','limit',
+    'listen','live','living','log',
+    'look','lot','love','low',
+    'loyal','lumber','lunch','lustful']
+
+let wordsTradL = ['laptops','durar','tarde','risos',
+    'leis','camada','preguiçoso','preguiçosos',
+    'inclina-se','aprendizado','coleira','ao menos',
+    'deixar','biblioteca','como','limite',
+    'ouvir','viver','vivendo','registro',
+    'olhar','muito','amor','baixo',
+    'leal','madeira serrada','almoço','lascivo']
+
 //=======================
 // N
+
+let wordsAskN = ['name','nagging','nationality','near',
+                'need','nervous','new','newspaper',
+                'next','nice','nicer','night',
+                'noise','not','notice','noticed',
+                'nowhere','nughty','number']
+
+let wordsTradN = ['nome','irritante','nacionalidade','aproximar',
+                'precisar','nervoso','novo','jornal',
+                'próximo','legal','mais legal','noite',
+                'barulho','não','perceber','percebido',
+                'em lugar nenhum','malandro','número']
 
 //=======================
 // O
 
+let wordsAskO = ['obviously','occasion','office','often',
+                'ok','old','older','once',
+                'open','or','our','ourselves',
+                'over','owe','owner'
+]
+
+let wordsTradO = ['obviamente','ocasião','escritório','frequentemente',
+                'ok','velho','mais velho','uma vez',
+                'abrir','ou','nosso','nós mesmos',
+                'sobre','dever','proprietário']
+
 //=======================
 // Q
+
+let wordsAskQ = ['quirk','quite']
+
+let wordsTradQ = ['peculiaridade','bastante']
 
 //=======================
 // V
 
+let wordsAskV = ['vacation','vanish','very','vet',
+                'video','viewing','visa','voice']
+
+let wordsTradV = ['férias','desaparecer','muito','veterinário',
+                'vídeo','visualização','Visa','voz']
+
 //=======================
 // Y
 
+let wordsAskY = ['yet','yield','young','your',
+                'yummy']
+
+let wordsTradY = ['ainda','colheita','jovem','seu',
+                'delicioso']
 

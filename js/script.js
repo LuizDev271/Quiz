@@ -29,7 +29,13 @@ if (!localStorage.getItem("letters")) {
         H: false,
         I: false,
         J: false,
-        K: false
+        K: false,
+        L: false,
+        N: false,
+        O: false,
+        Q: false,
+        V: false,
+        Y: false
     }
 
     localStorage.setItem("letters", JSON.stringify(obj))
@@ -47,7 +53,13 @@ if (!localStorage.getItem("lettersWins")) {
         H: false,
         I: false,
         J: false,
-        K: false
+        K: false,
+        L: false,
+        N: false,
+        O: false,
+        Q: false,
+        V: false,
+        Y: false
     }
 
     localStorage.setItem("lettersWins", JSON.stringify(obj2))
