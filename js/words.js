@@ -69,7 +69,7 @@ let wordsAskC = ['cabin', 'came', 'camera', 'can',
     'coming', 'complain', 'comply', 'concerned',
     'cook', 'cool', 'cost', 'could',
     'crawl', 'crouch', 'crowds', 'cup',
-    'cute', 'caught', 'clumsy', 'crispy', 'currently']
+    'cute', 'caught', 'clumsy', 'crunchy', 'currently']
 
 let wordsTradC = ['cabine', 'veio', 'câmera', 'pode',
     'doce', 'não pode', 'cuidadoso', 'descuidado',
