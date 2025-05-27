@@ -18,20 +18,20 @@ function checked(tag, param = false, event) {
                 })
 
                 if (letters.A) {
-                    if(attempt >= 150 && (wordsTradA.length - correct.length) == 1){
+                    if (attempt >= 150 && (wordsTradA.length - correct.length) == 1) {
                         getWordA(true)
                     } else {
                         getWordA(false)
                     }
 
                     words.innerHTML = `${wordsAskA.length - correct.length}`
-                    
+
                     if (correct.length == wordsTradA.length) {
                         liWin("A")
                         letterWin("A")
                     }
                 } else if (letters.B) {
-                    if(attempt >= 150 && (wordsTradB.length - correct.length) == 1){
+                    if (attempt >= 150 && (wordsTradB.length - correct.length) == 1) {
                         getWordB(true)
                     } else {
                         getWordB(false)
@@ -44,7 +44,7 @@ function checked(tag, param = false, event) {
                         letterWin("B")
                     }
                 } else if (letters.C) {
-                    if(attempt >= 150 && (wordsTradC.length - correct.length) == 1){
+                    if (attempt >= 150 && (wordsTradC.length - correct.length) == 1) {
                         getWordC(true)
                     } else {
                         getWordC(false)
@@ -57,7 +57,7 @@ function checked(tag, param = false, event) {
                         letterWin("C")
                     }
                 } else if (letters.D) {
-                    if(attempt >= 150 && (wordsTradD.length - correct.length) == 1){
+                    if (attempt >= 150 && (wordsTradD.length - correct.length) == 1) {
                         getWordD(true)
                     } else {
                         getWordD(false)
@@ -70,7 +70,7 @@ function checked(tag, param = false, event) {
                         letterWin("D")
                     }
                 } else if (letters.E) {
-                    if(attempt >= 150 && (wordsTradE.length - correct.length) == 1){
+                    if (attempt >= 150 && (wordsTradE.length - correct.length) == 1) {
                         getWordE(true)
                     } else {
                         getWordE(false)
@@ -83,7 +83,7 @@ function checked(tag, param = false, event) {
                         letterWin("E")
                     }
                 } else if (letters.F) {
-                    if(attempt >= 150 && (wordsTradF.length - correct.length) == 1){
+                    if (attempt >= 150 && (wordsTradF.length - correct.length) == 1) {
                         getWordF(true)
                     } else {
                         getWordF(false)
@@ -95,7 +95,7 @@ function checked(tag, param = false, event) {
                         letterWin("F")
                     }
                 } else if (letters.G) {
-                    if(attempt >= 150 && (wordsTradG.length - correct.length) == 1){
+                    if (attempt >= 150 && (wordsTradG.length - correct.length) == 1) {
                         getWordG(true)
                     } else {
                         getWordG(false)
@@ -108,7 +108,7 @@ function checked(tag, param = false, event) {
                         letterWin("G")
                     }
                 } else if (letters.H) {
-                    if(attempt >= 150 && (wordsTradH.length - correct.length) == 1){
+                    if (attempt >= 150 && (wordsTradH.length - correct.length) == 1) {
                         getWordH(true)
                     } else {
                         getWordH(false)
@@ -121,7 +121,7 @@ function checked(tag, param = false, event) {
                         letterWin("H")
                     }
                 } else if (letters.I) {
-                    if(attempt >= 150 && (wordsTradI.length - correct.length) == 1){
+                    if (attempt >= 150 && (wordsTradI.length - correct.length) == 1) {
                         getWordI(true)
                     } else {
                         getWordI(false)
@@ -134,12 +134,12 @@ function checked(tag, param = false, event) {
                         letterWin("I")
                     }
                 } else if (letters.J) {
-                    if(attempt >= 150 && (wordsTradJ.length - correct.length) == 1){
+                    if (attempt >= 150 && (wordsTradJ.length - correct.length) == 1) {
                         getWordJ(true)
                     } else {
                         getWordJ(false)
                     }
-                    
+
                     words.innerHTML = `${wordsAskJ.length - correct.length}`
 
                     if (correct.length == wordsTradJ.length) {
@@ -147,7 +147,7 @@ function checked(tag, param = false, event) {
                         letterWin("J")
                     }
                 } else if (letters.K) {
-                    if(attempt >= 150 && (wordsTradK.length - correct.length) == 1){
+                    if (attempt >= 150 && (wordsTradK.length - correct.length) == 1) {
                         getWordK(true)
                     } else {
                         getWordK(false)
@@ -160,7 +160,7 @@ function checked(tag, param = false, event) {
                         letterWin("K")
                     }
                 } else if (letters.L) {
-                    if(attempt >= 150 && (wordsTradL.length - correct.length) == 1){
+                    if (attempt >= 150 && (wordsTradL.length - correct.length) == 1) {
                         getWordL(true)
                     } else {
                         getWordL(false)
@@ -172,8 +172,21 @@ function checked(tag, param = false, event) {
                         liWin("L")
                         letterWin("L")
                     }
+                } else if (letters.M) {
+                    if (attempt >= 150 && (wordsTradM.length - correct.length) == 1) {
+                        getWordM(true)
+                    } else {
+                        getWordM(false)
+                    }
+
+                    words.innerHTML = `${wordsAskM.length - correct.length}`
+
+                    if (correct.length == wordsTradM.length) {
+                        liWin("M")
+                        letterWin("M")
+                    }
                 } else if (letters.N) {
-                    if(attempt >= 150 && (wordsTradN.length - correct.length) == 1){
+                    if (attempt >= 150 && (wordsTradN.length - correct.length) == 1) {
                         getWordN(true)
                     } else {
                         getWordN(false)
@@ -186,7 +199,7 @@ function checked(tag, param = false, event) {
                         letterWin("N")
                     }
                 } else if (letters.O) {
-                    if(attempt >= 150 && (wordsTradO.length - correct.length) == 1){
+                    if (attempt >= 150 && (wordsTradO.length - correct.length) == 1) {
                         getWordO(true)
                     } else {
                         getWordO(false)
@@ -198,8 +211,21 @@ function checked(tag, param = false, event) {
                         liWin("O")
                         letterWin("O")
                     }
+                } else if (letters.P) {
+                    if (attempt >= 150 && (wordsTradP.length - correct.length) == 1) {
+                        getWordP(true)
+                    } else {
+                        getWordP(false)
+                    }
+
+                    words.innerHTML = `${wordsAskP.length - correct.length}`
+
+                    if (correct.length == wordsTradP.length) {
+                        liWin("P")
+                        letterWin("P")
+                    }
                 } else if (letters.Q) {
-                    if(attempt >= 150 && (wordsTradQ.length - correct.length) == 1){
+                    if (attempt >= 150 && (wordsTradQ.length - correct.length) == 1) {
                         getWordQ(true)
                     } else {
                         getWordQ(false)
@@ -211,8 +237,21 @@ function checked(tag, param = false, event) {
                         liWin("Q")
                         letterWin("Q")
                     }
+                } else if (letters.U) {
+                    if (attempt >= 150 && (wordsTradU.length - correct.length) == 1) {
+                        getWordU(true)
+                    } else {
+                        getWordU(false)
+                    }
+
+                    words.innerHTML = `${wordsAskU.length - correct.length}`
+
+                    if (correct.length == wordsTradU.length) {
+                        liWin("U")
+                        letterWin("U")
+                    }
                 } else if (letters.V) {
-                    if(attempt >= 150 && (wordsTradV.length - correct.length) == 1){
+                    if (attempt >= 150 && (wordsTradV.length - correct.length) == 1) {
                         getWordV(true)
                     } else {
                         getWordV(false)
@@ -225,7 +264,7 @@ function checked(tag, param = false, event) {
                         letterWin("V")
                     }
                 } else if (letters.Y) {
-                    if(attempt >= 150 && (wordsTradY.length - correct.length) == 1){
+                    if (attempt >= 150 && (wordsTradY.length - correct.length) == 1) {
                         getWordY(true)
                     } else {
                         getWordY(false)
@@ -257,10 +296,10 @@ function checked(tag, param = false, event) {
             check.classList.remove('wrong')
             check.innerHTML = ''
 
-        } else if(event.keyCode == 8/*BACKSPACE*/){
+        } else if (event.keyCode == 8/*BACKSPACE*/) {
             let response = prompt("Certeza que quer resetar as letras??")
 
-            if(response == 'Sim' || response == "S" || response == "ss" || response == "s"){
+            if (response == 'Sim' || response == "S" || response == "ss" || response == "s") {
                 let obj2 = {
                     A: false,
                     B: false,
@@ -274,20 +313,23 @@ function checked(tag, param = false, event) {
                     J: false,
                     K: false,
                     L: false,
+                    M: false,
                     N: false,
                     O: false,
+                    P: false,
                     Q: false,
+                    U: false,
                     V: false,
                     Y: false
                 }
-            
+
                 localStorage.setItem("lettersWins", JSON.stringify(obj2))
                 Array.from(document.querySelectorAll('li')).forEach(li => {
                     li.classList.remove('win')
                 })
             }
-            
-        } else if(event.keyCode == 16 /*SHIFT*/){
+
+        } else if (event.keyCode == 16 /*SHIFT*/) {
             attempt = 145
         }
     }
@@ -321,9 +363,12 @@ letters.forEach(tag => {
                 J: false,
                 K: false,
                 L: false,
+                M: false,
                 N: false,
                 O: false,
+                P: false,
                 Q: false,
+                U: false,
                 V: false,
                 Y: false
             }
@@ -348,9 +393,12 @@ letters.forEach(tag => {
                 J: false,
                 K: false,
                 L: false,
+                M: false,
                 N: false,
                 O: false,
+                P: false,
                 Q: false,
+                U: false,
                 V: false,
                 Y: false
             }
@@ -375,9 +423,12 @@ letters.forEach(tag => {
                 J: false,
                 K: false,
                 L: false,
+                M: false,
                 N: false,
                 O: false,
+                P: false,
                 Q: false,
+                U: false,
                 V: false,
                 Y: false
             }
@@ -402,9 +453,12 @@ letters.forEach(tag => {
                 J: false,
                 K: false,
                 L: false,
+                M: false,
                 N: false,
                 O: false,
+                P: false,
                 Q: false,
+                U: false,
                 V: false,
                 Y: false
             }
@@ -428,9 +482,12 @@ letters.forEach(tag => {
                 J: false,
                 K: false,
                 L: false,
+                M: false,
                 N: false,
                 O: false,
+                P: false,
                 Q: false,
+                U: false,
                 V: false,
                 Y: false
             }
@@ -455,9 +512,12 @@ letters.forEach(tag => {
                 J: false,
                 K: false,
                 L: false,
+                M: false,
                 N: false,
                 O: false,
+                P: false,
                 Q: false,
+                U: false,
                 V: false,
                 Y: false
             }
@@ -482,9 +542,12 @@ letters.forEach(tag => {
                 J: false,
                 K: false,
                 L: false,
+                M: false,
                 N: false,
                 O: false,
+                P: false,
                 Q: false,
+                U: false,
                 V: false,
                 Y: false
             }
@@ -509,9 +572,12 @@ letters.forEach(tag => {
                 J: false,
                 K: false,
                 L: false,
+                M: false,
                 N: false,
                 O: false,
+                P: false,
                 Q: false,
+                U: false,
                 V: false,
                 Y: false
             }
@@ -536,9 +602,12 @@ letters.forEach(tag => {
                 J: false,
                 K: false,
                 L: false,
+                M: false,
                 N: false,
                 O: false,
+                P: false,
                 Q: false,
+                U: false,
                 V: false,
                 Y: false
             }
@@ -563,9 +632,12 @@ letters.forEach(tag => {
                 J: true,
                 K: false,
                 L: false,
+                M: false,
                 N: false,
                 O: false,
+                P: false,
                 Q: false,
+                U: false,
                 V: false,
                 Y: false
             }
@@ -590,9 +662,12 @@ letters.forEach(tag => {
                 J: false,
                 K: true,
                 L: false,
+                M: false,
                 N: false,
                 O: false,
+                P: false,
                 Q: false,
+                U: false,
                 V: false,
                 Y: false
             }
@@ -617,9 +692,12 @@ letters.forEach(tag => {
                 J: false,
                 K: false,
                 L: true,
+                M: false,
                 N: false,
                 O: false,
+                P: false,
                 Q: false,
+                U: false,
                 V: false,
                 Y: false
             }
@@ -627,6 +705,36 @@ letters.forEach(tag => {
             localStorage.setItem("letters", JSON.stringify(obj))
 
             getWordL()
+            used = []
+            correct = []
+            missing.innerHTML = ''
+        } else if (tag.innerHTML == 'M') {
+            let obj = {
+                A: false,
+                B: false,
+                C: false,
+                D: false,
+                E: false,
+                F: false,
+                G: false,
+                H: false,
+                I: false,
+                J: false,
+                K: false,
+                L: false,
+                M: true,
+                N: false,
+                O: false,
+                P: false,
+                Q: false,
+                U: false,
+                V: false,
+                Y: false
+            }
+
+            localStorage.setItem("letters", JSON.stringify(obj))
+
+            getWordM()
             used = []
             correct = []
             missing.innerHTML = ''
@@ -644,9 +752,12 @@ letters.forEach(tag => {
                 J: false,
                 K: false,
                 L: false,
+                M: false,
                 N: true,
                 O: false,
+                P: false,
                 Q: false,
+                U: false,
                 V: false,
                 Y: false
             }
@@ -671,9 +782,12 @@ letters.forEach(tag => {
                 J: false,
                 K: false,
                 L: false,
+                M: false,
                 N: false,
                 O: true,
+                P: false,
                 Q: false,
+                U: false,
                 V: false,
                 Y: false
             }
@@ -681,6 +795,36 @@ letters.forEach(tag => {
             localStorage.setItem("letters", JSON.stringify(obj))
 
             getWordO()
+            used = []
+            correct = []
+            missing.innerHTML = ''
+        } else if (tag.innerHTML == 'P') {
+            let obj = {
+                A: false,
+                B: false,
+                C: false,
+                D: false,
+                E: false,
+                F: false,
+                G: false,
+                H: false,
+                I: false,
+                J: false,
+                K: false,
+                L: false,
+                M: false,
+                N: false,
+                O: false,
+                P: true,
+                Q: false,
+                U: false,
+                V: false,
+                Y: false
+            }
+
+            localStorage.setItem("letters", JSON.stringify(obj))
+
+            getWordP()
             used = []
             correct = []
             missing.innerHTML = ''
@@ -698,9 +842,12 @@ letters.forEach(tag => {
                 J: false,
                 K: false,
                 L: false,
+                M: false,
                 N: false,
                 O: false,
+                P: false,
                 Q: true,
+                U: false,
                 V: false,
                 Y: false
             }
@@ -708,6 +855,36 @@ letters.forEach(tag => {
             localStorage.setItem("letters", JSON.stringify(obj))
 
             getWordQ()
+            used = []
+            correct = []
+            missing.innerHTML = ''
+        } else if (tag.innerHTML == 'U') {
+            let obj = {
+                A: false,
+                B: false,
+                C: false,
+                D: false,
+                E: false,
+                F: false,
+                G: false,
+                H: false,
+                I: false,
+                J: false,
+                K: false,
+                L: false,
+                M: false,
+                N: false,
+                O: false,
+                P: false,
+                Q: false,
+                U: true,
+                V: false,
+                Y: false
+            }
+
+            localStorage.setItem("letters", JSON.stringify(obj))
+
+            getWordU()
             used = []
             correct = []
             missing.innerHTML = ''
@@ -725,11 +902,15 @@ letters.forEach(tag => {
                 J: false,
                 K: false,
                 L: false,
+                M: false,
                 N: false,
                 O: false,
+                P: false,
                 Q: false,
+                U: false,
                 V: true,
                 Y: false
+                
             }
 
             localStorage.setItem("letters", JSON.stringify(obj))
@@ -752,9 +933,12 @@ letters.forEach(tag => {
                 J: false,
                 K: false,
                 L: false,
+                M: false,
                 N: false,
                 O: false,
+                P: false,
                 Q: false,
+                U: false,
                 V: false,
                 Y: true
             }

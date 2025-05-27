@@ -17,9 +17,12 @@ function letterWin(param) {
                 J: letters.J ? true : false,
                 K: letters.K ? true : false,
                 L: letters.K ? true : false,
+                M: letters.M ? true : false,
                 N: letters.K ? true : false,
                 O: letters.K ? true : false,
+                P: letters.P ? true : false,
                 Q: letters.K ? true : false,
+                U: letters.U ? true : false,
                 V: letters.K ? true : false,
                 Y: letters.K ? true : false
             }
@@ -40,9 +43,12 @@ function letterWin(param) {
                 J: letters.J ? true : false,
                 K: letters.K ? true : false,
                 L: letters.L ? true : false,
+                M: letters.M ? true : false,
                 N: letters.N ? true : false,
                 O: letters.O ? true : false,
+                P: letters.P ? true : false,
                 Q: letters.Q ? true : false,
+                U: letters.U ? true : false,
                 V: letters.V ? true : false,
                 Y: letters.Y ? true : false
                 
@@ -64,9 +70,12 @@ function letterWin(param) {
                 J: letters.J ? true : false,
                 K: letters.K ? true : false,
                 L: letters.L ? true : false,
+                M: letters.M ? true : false,
                 N: letters.N ? true : false,
                 O: letters.O ? true : false,
+                P: letters.P ? true : false,
                 Q: letters.Q ? true : false,
+                U: letters.U ? true : false,
                 V: letters.V ? true : false,
                 Y: letters.Y ? true : false
             }
@@ -87,9 +96,12 @@ function letterWin(param) {
                 J: letters.J ? true : false,
                 K: letters.K ? true : false,
                 L: letters.L ? true : false,
+                M: letters.M ? true : false,
                 N: letters.N ? true : false,
                 O: letters.O ? true : false,
+                P: letters.P ? true : false,
                 Q: letters.Q ? true : false,
+                U: letters.U ? true : false,
                 V: letters.V ? true : false,
                 Y: letters.Y ? true : false
             }
@@ -110,9 +122,12 @@ function letterWin(param) {
                 J: letters.J ? true : false,
                 K: letters.K ? true : false,
                 L: letters.L ? true : false,
+                M: letters.M ? true : false,
                 N: letters.N ? true : false,
                 O: letters.O ? true : false,
+                P: letters.P ? true : false,
                 Q: letters.Q ? true : false,
+                U: letters.U ? true : false,
                 V: letters.V ? true : false,
                 Y: letters.Y ? true : false
             }
@@ -133,9 +148,12 @@ function letterWin(param) {
                 J: letters.J ? true : false,
                 K: letters.K ? true : false,
                 L: letters.L ? true : false,
+                M: letters.M ? true : false,
                 N: letters.N ? true : false,
                 O: letters.O ? true : false,
+                P: letters.P ? true : false,
                 Q: letters.Q ? true : false,
+                U: letters.U ? true : false,
                 V: letters.V ? true : false,
                 Y: letters.Y ? true : false
             }
@@ -156,9 +174,12 @@ function letterWin(param) {
                 J: letters.J ? true : false,
                 K: letters.K ? true : false,
                 L: letters.L ? true : false,
+                M: letters.M ? true : false,
                 N: letters.N ? true : false,
                 O: letters.O ? true : false,
+                P: letters.P ? true : false,
                 Q: letters.Q ? true : false,
+                U: letters.U ? true : false,
                 V: letters.V ? true : false,
                 Y: letters.Y ? true : false
             }
@@ -179,9 +200,12 @@ function letterWin(param) {
                 J: letters.J ? true : false,
                 K: letters.K ? true : false,
                 L: letters.L ? true : false,
+                M: letters.M ? true : false,
                 N: letters.N ? true : false,
                 O: letters.O ? true : false,
+                P: letters.P ? true : false,
                 Q: letters.Q ? true : false,
+                U: letters.U ? true : false,
                 V: letters.V ? true : false,
                 Y: letters.Y ? true : false
             }
@@ -202,9 +226,12 @@ function letterWin(param) {
                 J: letters.J ? true : false,
                 K: letters.K ? true : false,
                 L: letters.L ? true : false,
+                M: letters.M ? true : false,
                 N: letters.N ? true : false,
                 O: letters.O ? true : false,
+                P: letters.P ? true : false,
                 Q: letters.Q ? true : false,
+                U: letters.U ? true : false,
                 V: letters.V ? true : false,
                 Y: letters.Y ? true : false
             }
@@ -225,9 +252,12 @@ function letterWin(param) {
                 J: true,
                 K: letters.K ? true : false,
                 L: letters.L ? true : false,
+                M: letters.M ? true : false,
                 N: letters.N ? true : false,
                 O: letters.O ? true : false,
+                P: letters.P ? true : false,
                 Q: letters.Q ? true : false,
+                U: letters.U ? true : false,
                 V: letters.V ? true : false,
                 Y: letters.Y ? true : false
             }
@@ -248,9 +278,12 @@ function letterWin(param) {
                 J: letters.J ? true : false,
                 K: true,
                 L: letters.L ? true : false,
+                M: letters.M ? true : false,
                 N: letters.N ? true : false,
                 O: letters.O ? true : false,
+                P: letters.P ? true : false,
                 Q: letters.Q ? true : false,
+                U: letters.U ? true : false,
                 V: letters.V ? true : false,
                 Y: letters.Y ? true : false
             }
@@ -271,15 +304,43 @@ function letterWin(param) {
                 J: letters.J ? true : false,
                 K: letters.K ? true : false,
                 L: true,
+                M: letters.M ? true : false,
                 N: letters.N ? true : false,
                 O: letters.O ? true : false,
+                P: letters.P ? true : false,
                 Q: letters.Q ? true : false,
+                U: letters.U ? true : false,
                 V: letters.V ? true : false,
                 Y: letters.Y ? true : false
             }
 
             localStorage.setItem("lettersWins", JSON.stringify(obj))
             break
+        case "M":
+            obj = {
+                A: letters.A ? true : false,
+                B: letters.B ? true : false,
+                C: letters.C ? true : false,
+                D: letters.D ? true : false,
+                E: letters.E ? true : false,
+                F: letters.F ? true : false,
+                G: letters.G ? true : false,
+                H: letters.H ? true : false,
+                I: letters.I ? true : false,
+                J: letters.J ? true : false,
+                K: letters.K ? true : false,
+                L: letters.L ? true : false,
+                M: true,
+                N: letters.N ? true : false,
+                O: letters.O ? true : false,
+                P: letters.P ? true : false,
+                Q: letters.Q ? true : false,
+                U: letters.U ? true : false,
+                V: letters.V ? true : false,
+                Y: letters.Y ? true : false
+            }
+
+            localStorage.setItem("lettersWins", JSON.stringify(obj))
         case "N":
             obj = {
                 A: letters.A ? true : false,
@@ -294,9 +355,12 @@ function letterWin(param) {
                 J: letters.J ? true : false,
                 K: letters.K ? true : false,
                 L: letters.L ? true : false,
+                M: letters.M ? true : false,
                 N: true,
                 O: letters.O ? true : false,
+                P: letters.P ? true : false,
                 Q: letters.Q ? true : false,
+                U: letters.U ? true : false,
                 V: letters.V ? true : false,
                 Y: letters.Y ? true : false
             }
@@ -316,16 +380,44 @@ function letterWin(param) {
                 I: letters.I ? true : false,
                 J: letters.J ? true : false,
                 K: letters.K ? true : false,
-                L: letters.L ? true : false,
                 N: letters.N ? true : false,
+                L: letters.L ? true : false,
+                M: letters.M ? true : false,
                 O: true,
+                P: letters.P ? true : false,
                 Q: letters.Q ? true : false,
+                U: letters.U ? true : false,
                 V: letters.V ? true : false,
                 Y: letters.Y ? true : false
             }
 
             localStorage.setItem("lettersWins", JSON.stringify(obj))
             break
+        case "P":
+            obj = {
+                A: letters.A ? true : false,
+                B: letters.B ? true : false,
+                C: letters.C ? true : false,
+                D: letters.D ? true : false,
+                E: letters.E ? true : false,
+                F: letters.F ? true : false,
+                G: letters.G ? true : false,
+                H: letters.H ? true : false,
+                I: letters.I ? true : false,
+                J: letters.J ? true : false,
+                K: letters.K ? true : false,
+                L: letters.L ? true : false,
+                M: letters.M ? true : false,
+                N: letters.N ? true : false,
+                O: letters.O ? true : false,
+                P: true,
+                Q: letters.Q ? true : false,
+                U: letters.U ? true : false,
+                V: letters.V ? true : false,
+                Y: letters.Y ? true : false
+            }
+
+            localStorage.setItem("lettersWins", JSON.stringify(obj))
         case "Q":
             obj = {
                 A: letters.A ? true : false,
@@ -340,15 +432,43 @@ function letterWin(param) {
                 J: letters.J ? true : false,
                 K: letters.K ? true : false,
                 L: letters.L ? true : false,
+                M: letters.M ? true : false,
                 N: letters.N ? true : false,
                 O: letters.O ? true : false,
+                P: letters.P ? true : false,
                 Q: true,
+                U: letters.U ? true : false,
                 V: letters.V ? true : false,
                 Y: letters.Y ? true : false
             }
 
             localStorage.setItem("lettersWins", JSON.stringify(obj))
             break
+        case "U":
+            obj = {
+                A: letters.A ? true : false,
+                B: letters.B ? true : false,
+                C: letters.C ? true : false,
+                D: letters.D ? true : false,
+                E: letters.E ? true : false,
+                F: letters.F ? true : false,
+                G: letters.G ? true : false,
+                H: letters.H ? true : false,
+                I: letters.I ? true : false,
+                J: letters.J ? true : false,
+                K: letters.K ? true : false,
+                L: letters.L ? true : false,
+                M: letters.M ? true : false,
+                N: letters.N ? true : false,
+                O: letters.O ? true : false,
+                P: letters.P ? true : false,
+                Q: letters.Q ? true : false,
+                U: true,
+                V: letters.V ? true : false,
+                Y: letters.Y ? true : false
+            }
+
+            localStorage.setItem("lettersWins", JSON.stringify(obj))
         case "V":
             obj = {
                 A: letters.A ? true : false,
@@ -363,9 +483,12 @@ function letterWin(param) {
                 J: letters.J ? true : false,
                 K: letters.K ? true : false,
                 L: letters.L ? true : false,
+                M: letters.M ? true : false,
                 N: letters.N ? true : false,
                 O: letters.O ? true : false,
+                P: letters.P ? true : false,
                 Q: letters.Q ? true : false,
+                U: letters.U ? true : false,
                 V: true,
                 Y: letters.Y ? true : false
             }
@@ -386,9 +509,12 @@ function letterWin(param) {
                 J: letters.J ? true : false,
                 K: letters.K ? true : false,
                 L: letters.L ? true : false,
+                M: letters.M ? true : false,
                 N: letters.N ? true : false,
                 O: letters.O ? true : false,
+                P: letters.P ? true : false,
                 Q: letters.Q ? true : false,
+                U: letters.U ? true : false,
                 V: letters.V ? true : false,
                 Y: true
             }
@@ -425,12 +551,18 @@ function getLetterWin(){
         liWin("K", true)
     } else if(letters.L){
         liWin("L", true)
+    } else if(letters.M){
+        liWin("M", true)
     } else if(letters.N){
         liWin("N", true)
     } else if(letters.O){
         liWin("O", true)
+    } else if(letters.P){
+        liWin("P", true)
     } else if(letters.Q){
         liWin("Q", true)
+    } else if(letters.U){
+        liWin("U", true)
     } else if(letters.V){
         liWin("V", true)
     } else if(letters.Y){
@@ -480,16 +612,25 @@ function lastLetter() {
     } else if (letters.L) {
         getWordL()
         activeLetter("L")
-    } else if (letters.N) {
+    } else if (letters.M) {
+        getWordM()
+        activeLetter("M")
+    }else if (letters.N) {
         getWordN()
         activeLetter("N")
     } else if (letters.O) {
         getWordO()
         activeLetter("O")
-    } else if (letters.Q) {
+    } else if (letters.P) {
+        getWordP()
+        activeLetter("P")
+    }else if (letters.Q) {
         getWordQ()
         activeLetter("Q")
-    } else if (letters.V) {
+    } else if (letters.U) {
+        getWordU()
+        activeLetter("U")
+    }else if (letters.V) {
         getWordV()
         activeLetter("V")
     } else if (letters.Y) {
@@ -523,13 +664,19 @@ function activeLetter(letter) {
     } else if (letter == "K") {
         liArray(true, "K")
     } else if (letter == "L") {
-        liArray(true, "L")
+        liArray(true, "L") 
+    } else if (letter == "M") {
+        liArray(true, "M")
     } else if (letter == "N") {
         liArray(true, "N")
     } else if (letter == "O") {
         liArray(true, "O")
+    } else if (letter == "P") {
+        liArray(true, "P")
     } else if (letter == "Q") {
         liArray(true, "Q")
+    } else if (letter == "U") {
+        liArray(true, "U")
     } else if (letter == "V") {
         liArray(true, "V")
     } else if (letter == "Y") {

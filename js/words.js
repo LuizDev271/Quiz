@@ -234,73 +234,138 @@ let wordsTradK = ['manter', 'chaves', 'cozinha', 'sabia',
 //=======================
 // L
 
-let wordsAskL = ['laptops','last','late','laughs',
-    'laws','layer','lazy','lazybones',
-    'leans','learning','leash','least',
-    'leave','library','like','limit',
-    'listen','live','living','log',
-    'look','lot','love','low',
-    'loyal','lumber','lunch','lustful']
+let wordsAskL = ['laptops', 'last', 'late', 'laughs',
+    'laws', 'layer', 'lazy', 'lazybones',
+    'leans', 'learning', 'leash', 'least',
+    'leave', 'library', 'like', 'limit',
+    'listen', 'live', 'living', 'log',
+    'look', 'lot', 'love', 'low',
+    'loyal', 'lumber', 'lunch', 'lustful']
 
-let wordsTradL = ['laptops','durar','tarde','risos',
-    'leis','camada','preguiçoso','preguiçosos',
-    'inclina-se','aprendizado','coleira','ao menos',
-    'deixar','biblioteca','como','limite',
-    'ouvir','viver','vivendo','registro',
-    'olhar','muito','amor','baixo',
-    'leal','madeira serrada','almoço','lascivo']
+let wordsTradL = ['laptops', 'durar', 'tarde', 'risos',
+    'leis', 'camada', 'preguiçoso', 'preguiçosos',
+    'inclina-se', 'aprendizado', 'coleira', 'ao menos',
+    'deixar', 'biblioteca', 'como', 'limite',
+    'ouvir', 'viver', 'vivendo', 'registro',
+    'olhar', 'muito', 'amor', 'baixo',
+    'leal', 'madeira serrada', 'almoço', 'lascivo']
+
+//=======================
+// M
+
+let wordsAskM = ['mad', 'made', 'mall', 'man',
+    'manage', 'many', 'marbles', 'math',
+    'matter', 'matters', 'may', 'maybe',
+    'mayor', 'me', 'meal', 'mean',
+    'meaning', 'means', 'meant', 'meet',
+    'meets', 'mellow', 'menu', 'messages',
+    'might', 'mingle', 'minute', 'miss',
+    'missed', 'missing', 'mistake', 'month',
+    'mood', 'morning', 'most', 'mother',
+    'motorcycle', 'moved', 'movie', 'much',
+    'museums', 'must', 'my']
+
+let wordsTradM = ['louco', 'feito', 'shopping center', 'homem',
+    'gerenciar', 'muitos', 'bolinhas de gude', 'matemática',
+    'matéria', 'assuntos', 'poderia', 'talvez',
+    'prefeito', 'mim', 'refeição', 'significar',
+    'significado', 'significa', 'significou', 'encontrar',
+    'encontra', 'maduro', 'menu', 'mensagens',
+    'poder', 'misturar-se', 'minuto', 'perder',
+    'perdido', 'ausente', 'erro', 'mês',
+    'humor', 'manhã', 'maioria', 'mãe',
+    'motocicleta', 'movido', 'filme', 'muito',
+    'museus', 'deve', 'meu']
 
 //=======================
 // N
 
-let wordsAskN = ['name','nagging','nationality','near',
-                'need','nervous','new','newspaper',
-                'next','nice','nicer','night',
-                'noise','not','notice','noticed',
-                'nowhere','nughty','number']
+let wordsAskN = ['name', 'nagging', 'nationality', 'near',
+    'need', 'nervous', 'new', 'newspaper',
+    'next', 'nice', 'nicer', 'night',
+    'noise', 'not', 'notice', 'noticed',
+    'nowhere', 'nughty', 'number']
 
-let wordsTradN = ['nome','irritante','nacionalidade','aproximar',
-                'precisar','nervoso','novo','jornal',
-                'próximo','legal','mais legal','noite',
-                'barulho','não','perceber','percebido',
-                'em lugar nenhum','malandro','número']
+let wordsTradN = ['nome', 'irritante', 'nacionalidade', 'aproximar',
+    'precisar', 'nervoso', 'novo', 'jornal',
+    'próximo', 'legal', 'mais legal', 'noite',
+    'barulho', 'não', 'perceber', 'percebido',
+    'em lugar nenhum', 'malandro', 'número']
 
 //=======================
 // O
 
-let wordsAskO = ['obviously','occasion','office','often',
-                'ok','old','older','once',
-                'open','or','our','ourselves',
-                'over','owe','owner'
+let wordsAskO = ['obviously', 'occasion', 'office', 'often',
+    'ok', 'old', 'older', 'once',
+    'open', 'or', 'our', 'ourselves',
+    'over', 'owe', 'owner'
 ]
 
-let wordsTradO = ['obviamente','ocasião','escritório','frequentemente',
-                'ok','velho','mais velho','uma vez',
-                'abrir','ou','nosso','nós mesmos',
-                'sobre','dever','proprietário']
+let wordsTradO = ['obviamente', 'ocasião', 'escritório', 'frequentemente',
+    'ok', 'velho', 'mais velho', 'uma vez',
+    'abrir', 'ou', 'nosso', 'nós mesmos',
+    'sobre', 'dever', 'proprietário']
+
+//=======================
+// P
+
+let wordsAskP = [
+    'painting', 'pair', 'pants', 'parents',
+    'park', 'part', 'party', 'patty',
+    'pay', 'perfect', 'perhaps', 'phone',
+    'picks', 'picnic', 'picture', 'pillow',
+    'places', 'plain', 'plane', 'player',
+    'please', 'pleased', 'plenty', 'plunder',
+    'plus', 'points', 'poor', 'pour',
+    'pray', 'present', 'pretty', 'previous',
+    'primarily', 'problem', 'proud']
+
+let wordsTradP = ['pintura', 'par', 'calça', 'pais',
+    'parque', 'parte', 'festa', 'empada',
+    'pagar', 'perfeito', 'talvez', 'telefone',
+    'escolhas', 'piquenique', 'foto', 'travesseiro',
+    'lugares', 'simples', 'avião', 'jogador',
+    'por favor', 'satisfeito', 'bastante', 'pilhagem',
+    'mais', 'pontos', 'pobre', 'derramar',
+    'rezar', 'presente', 'bonito', 'anterior',
+    'principalmente', 'problema', 'orgulhoso',
+]
 
 //=======================
 // Q
 
-let wordsAskQ = ['quirk','quite']
+let wordsAskQ = ['quirk', 'quite']
 
-let wordsTradQ = ['peculiaridade','bastante']
+let wordsTradQ = ['peculiaridade', 'bastante']
+
+//=======================
+// U
+
+let wordsAskU = ['um', 'unable', 'unceremoniously', 'under',
+    'understand', 'understtod', 'unharmed', 'university',
+    'unlike', 'unsure', 'until', 'upon',
+    'useful', 'utter']
+
+let wordsTradU = ['hum', 'impossível', 'sem cerimônia', 'sob',
+    'entender', 'compreendido', 'ileso', 'universidade',
+    'diferente', 'inseguro', 'até', 'sobre',
+    'útil', 'total']
 
 //=======================
 // V
 
-let wordsAskV = ['vacation','vanish','very','vet',
-                'video','viewing','visa','voice']
+let wordsAskV = ['vacation', 'vanish', 'very', 'vet',
+    'video', 'viewing', 'visa', 'voice']
 
-let wordsTradV = ['férias','desaparecer','muito','veterinário',
-                'vídeo','visualização','Visa','voz']
+let wordsTradV = ['férias', 'desaparecer', 'muito', 'veterinário',
+    'vídeo', 'visualização', 'Visa', 'voz']
 
 //=======================
 // Y
 
-let wordsAskY = ['yet','yield','young','your',
-                'yummy']
+let wordsAskY = ['yet', 'yield', 'young', 'your',
+    'yummy']
 
-let wordsTradY = ['ainda','colheita','jovem','seu',
-                'delicioso']
+let wordsTradY = ['ainda', 'colheita', 'jovem', 'seu',
+    'delicioso']
 

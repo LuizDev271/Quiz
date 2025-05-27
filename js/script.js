@@ -31,9 +31,12 @@ if (!localStorage.getItem("letters")) {
         J: false,
         K: false,
         L: false,
+        M: false,
         N: false,
         O: false,
+        P: false,
         Q: false,
+        U: false,
         V: false,
         Y: false
     }
@@ -55,9 +58,12 @@ if (!localStorage.getItem("lettersWins")) {
         J: false,
         K: false,
         L: false,
+        M: false,
         N: false,
         O: false,
+        P: false,
         Q: false,
+        U: false,
         V: false,
         Y: false
     }

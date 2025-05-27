@@ -609,6 +609,57 @@ function getWordL(lastAlt = false) {
         })
     }
 }
+function getWordM(lastAlt = false) {
+    alts.forEach(tag => {
+        tag.removeAttribute('correct')
+        tag.innerHTML = '...'
+    })
+
+    let x = Math.floor(Math.random().toFixed(2) * (wordsAskM.length - 1))
+    if (wordsAskM[x] == "") {
+        x = Math.floor(Math.random().toFixed(2) * (wordsAskM.length - 1))
+    }
+    let z = Math.floor(Math.random() * alts.length)
+
+    if(lastAlt){
+        alts[z].innerHTML = wordsTradM[lastWord('M')]
+        alts[z].setAttribute("Correct", true)
+
+        word.style.color = 'yellow'
+        word.innerHTML = wordsAskM[lastWord('M')]
+
+        used.push(wordsTradM[lastWord('M')])
+    } else if(!lastAlt){
+        alts[z].innerHTML = wordsTradM[x]
+        alts[z].setAttribute("Correct", true)
+
+        word.style.color = 'yellow'
+        word.innerHTML = wordsAskM[x]
+
+        used.push(wordsTradM[x])
+    }
+
+    for (let x = 0; x <= 10; x++) {
+        alts.forEach(tag => {
+
+            if (tag.innerHTML == '...') {
+                let y = Math.floor(Math.random() * wordsAskM.length)
+
+                for (let x = 0; x <= 1000; x++) {
+                    if (used.includes(wordsTradM[y]) == false) {
+                        used.push(wordsTradM[y])
+
+                        if (wordsTradM[y] == "") {
+                            continue
+                        }
+
+                        tag.innerHTML = wordsTradM[y]
+                    }
+                }
+            }
+        })
+    }
+}
 function getWordN(lastAlt = false) {
     alts.forEach(tag => {
         tag.removeAttribute('correct')
@@ -711,6 +762,57 @@ function getWordO(lastAlt = false) {
         })
     }
 }
+function getWordP(lastAlt = false) {
+    alts.forEach(tag => {
+        tag.removeAttribute('correct')
+        tag.innerHTML = '...'
+    })
+
+    let x = Math.floor(Math.random().toFixed(2) * (wordsAskP.length - 1))
+    if (wordsAskP[x] == "") {
+        x = Math.floor(Math.random().toFixed(2) * (wordsAskP.length - 1))
+    }
+    let z = Math.floor(Math.random() * alts.length)
+
+    if(lastAlt){
+        alts[z].innerHTML = wordsTradP[lastWord('P')]
+        alts[z].setAttribute("Correct", true)
+
+        word.style.color = 'yellow'
+        word.innerHTML = wordsAskP[lastWord('P')]
+
+        used.push(wordsTradP[lastWord('P')])
+    } else if(!lastAlt){
+        alts[z].innerHTML = wordsTradP[x]
+        alts[z].setAttribute("Correct", true)
+
+        word.style.color = 'yellow'
+        word.innerHTML = wordsAskP[x]
+
+        used.push(wordsTradP[x])
+    }
+
+    for (let x = 0; x <= 10; x++) {
+        alts.forEach(tag => {
+
+            if (tag.innerHTML == '...') {
+                let y = Math.floor(Math.random() * wordsAskP.length)
+
+                for (let x = 0; x <= 1000; x++) {
+                    if (used.includes(wordsTradP[y]) == false) {
+                        used.push(wordsTradP[y])
+
+                        if (wordsTradP[y] == "") {
+                            continue
+                        }
+
+                        tag.innerHTML = wordsTradP[y]
+                    }
+                }
+            }
+        })
+    }
+}
 function getWordQ(lastAlt = false) {
     alts.forEach(tag => {
         tag.removeAttribute('correct')
@@ -756,6 +858,57 @@ function getWordQ(lastAlt = false) {
                         }
 
                         tag.innerHTML = wordsTradQ[y]
+                    }
+                }
+            }
+        })
+    }
+}
+function getWordU(lastAlt = false) {
+    alts.forEach(tag => {
+        tag.removeAttribute('correct')
+        tag.innerHTML = '...'
+    })
+
+    let x = Math.floor(Math.random().toFixed(2) * (wordsAskU.length - 1))
+    if (wordsAskU[x] == "") {
+        x = Math.floor(Math.random().toFixed(2) * (wordsAskU.length - 1))
+    }
+    let z = Math.floor(Math.random() * alts.length)
+
+    if(lastAlt){
+        alts[z].innerHTML = wordsTradU[lastWord('U')]
+        alts[z].setAttribute("Correct", true)
+
+        word.style.color = 'yellow'
+        word.innerHTML = wordsAskU[lastWord('U')]
+
+        used.push(wordsTradU[lastWord('U')])
+    } else if(!lastAlt){
+        alts[z].innerHTML = wordsTradU[x]
+        alts[z].setAttribute("Correct", true)
+
+        word.style.color = 'yellow'
+        word.innerHTML = wordsAskU[x]
+
+        used.push(wordsTradU[x])
+    }
+
+    for (let x = 0; x <= 10; x++) {
+        alts.forEach(tag => {
+
+            if (tag.innerHTML == '...') {
+                let y = Math.floor(Math.random() * wordsAskU.length)
+
+                for (let x = 0; x <= 1000; x++) {
+                    if (used.includes(wordsTradU[y]) == false) {
+                        used.push(wordsTradU[y])
+
+                        if (wordsTradU[y] == "") {
+                            continue
+                        }
+
+                        tag.innerHTML = wordsTradU[y]
                     }
                 }
             }

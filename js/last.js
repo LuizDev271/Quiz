@@ -123,6 +123,16 @@ function lastWord(letter) {
             })
 
             break
+        case 'M':
+            lastLetter = wordsTradM.filter(item => !correct.includes(item))[0]
+
+            wordsTradM.forEach((word, index) => {
+                if (lastLetter == word) {
+                    number = index
+                }
+            })
+
+            break
         case 'N':
             lastLetter = wordsTradN.filter(item => !correct.includes(item))[0]
 
@@ -143,10 +153,30 @@ function lastWord(letter) {
             })
 
             break
+        case 'P':
+            lastLetter = wordsTradP.filter(item => !correct.includes(item))[0]
+
+            wordsTradP.forEach((word, index) => {
+                if (lastLetter == word) {
+                    number = index
+                }
+            })
+
+            break
         case 'Q':
             lastLetter = wordsTradQ.filter(item => !correct.includes(item))[0]
 
             wordsTradQ.forEach((word, index) => {
+                if (lastLetter == word) {
+                    number = index
+                }
+            })
+
+            break
+        case 'U':
+            lastLetter = wordsTradU.filter(item => !correct.includes(item))[0]
+
+            wordsTradU.forEach((word, index) => {
                 if (lastLetter == word) {
                     number = index
                 }
